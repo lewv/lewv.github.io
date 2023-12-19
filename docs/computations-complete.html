@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 const initializeWebRTimerStart = performance.now();
 
 // Determine if we need to install R packages
-var installRPackagesList = ['ggplot2', 'datasets'];
+var installRPackagesList = ['ggplot2', 'datasets', 'knitr'];
 // Check to see if we have an empty array, if we do set to skip the installation.
 var setupRPackages = !(installRPackagesList.indexOf("") !== -1);
 var autoloadRPackages = true;
@@ -916,7 +916,6 @@ library(ggplot2)`,
   1);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>There are observations in our data.</p>
 <div id="qwebr-insertion-location-2"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -938,7 +937,7 @@ mean_hwy <- round(mean(mpg$hwy), 2)`,
   2);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>The plots in <strong>?@fig-mpg</strong> show the relationship between city and highway mileage for 38 popular models of cars. In <strong>?@fig-mpg-1</strong> the points are colored by the number of cylinders while in <strong>?@fig-mpg-2</strong> the points are colored by engine displacement.</p>
+<p>The plots</p>
 <div id="qwebr-insertion-location-3"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -967,6 +966,25 @@ ggplot(mpg, aes(x = hwy, y = cty, color = displ)) +
   scale_color_viridis_c(option = "E") +
   theme_minimal()`, 
   3);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div id="qwebr-insertion-location-4"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-4");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    4
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `knitr::kable(mpg[1:5, ], )`, 
+  4);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
