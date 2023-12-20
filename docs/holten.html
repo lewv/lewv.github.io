@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Stats 101A Spring 2024 - About</title>
+<title>Stats 101A Spring 2024 - Holten Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -86,11 +120,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./holten.html" rel="" target="">
+    <a class="nav-link active" href="./holten.html" rel="" target="" aria-current="page">
  <span class="menu-text">Holten Project</span></a>
   </li>  
 </ul>
@@ -104,15 +138,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">tl;dr</a></li>
+  <li><a href="#recall" id="toc-recall" class="nav-link" data-scroll-target="#recall">Recall</a></li>
+  <li><a href="#her-questions" id="toc-her-questions" class="nav-link" data-scroll-target="#her-questions">Her questions</a></li>
+  <li><a href="#her-data" id="toc-her-data" class="nav-link" data-scroll-target="#her-data">Her data</a></li>
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
+  <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables">Tables</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Holten Project</h1>
 </div>
 
 
@@ -127,9 +172,192 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This site was produced with Quarto</p>
+<section id="tldr" class="level1">
+<h1>tl;dr</h1>
+<p>Her project may be more suitable for a Stat 140XP team than a Stat 141XP team. She is having data issues with BruinLearn so has a smaller (1,119 observation 5 variable set from Summer 2023) instead of full set with additional information</p>
+</section>
+<section id="recall" class="level1">
+<h1>Recall</h1>
+<p>We met with Christine Holten at the Faculty Center in November. She’s with the writing program. It turns out that we cannot access any of her data on BruinLearn (maybe in the future, but the tools don’t exist right now)</p>
+</section>
+<section id="her-questions" class="level1">
+<h1>Her questions</h1>
+<ol type="1">
+<li>What is the correlation between our placement and students’ course preference – Can we rely on the students’ course preference selection alone to get similar placement result patterns as we get when we ourselves place students based on the reading/writing essay that they complete? Or asked in a different way, when can we rely on students’ course preference selections to get similar placement patterns as we get when we place students ourselves? When can we not rely on their course selections?<br>
+</li>
+<li>correlation between students’ post-AWPE survey scores, students’ course preference, and our placement of students – When can we rely on students’ course preferences in combination with their post-AWPE survey results to give us similar placement result patterns as when we ourselves place students based on the reading/writing essay?<br>
+</li>
+<li>correlation between student our placement, student course preference, post-AWPE survey scores and unweighted GPA – Can unweighted GPA serve as an independent measure to help us determine when to accept students’ course preference &amp; survey results and when not to accept students’ course preference and place them ourselves?</li>
+</ol>
+</section>
+<section id="her-data" class="level1">
+<h1>Her data</h1>
+<p>They do keep some data outside of BruinLearn, here are 1,119 student results from last summer:</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">width =</span> <span class="dv">120</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr) </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>holten <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/lewv/S24STATS101A/main/data/holten.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 1119 Columns: 5
+── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────
+Delimiter: ","
+chr (3): ENG COMP Placement, Course Preference, H/L/A
+dbl (2): Post-AWPE Survey, Unweighted GPA
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(holten)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 5
+  `ENG COMP Placement` `Course Preference` `Post-AWPE Survey` `H/L/A` `Unweighted GPA`
+  &lt;chr&gt;                &lt;chr&gt;                            &lt;dbl&gt; &lt;chr&gt;              &lt;dbl&gt;
+1 1                    1                                   27 A                   3.78
+2 1                    1                                   28 A                   4   
+3 1                    1                                   28 A                   3.55
+4 1                    1                                   28 A                   3.92
+5 1                    1                                   30 A                   3.93
+6 1                    1                                   31 A                   3.4 </code></pre>
+</div>
+</div>
+</section>
+<section id="documentation" class="level1">
+<h1>Documentation</h1>
+<ol type="1">
+<li>(omitted) Column A – UID<br>
+</li>
+<li>Column B – ENG COMP Placement (that is the English composition course our raters placed them in – the possible placements are:
+<ul>
+<li>English Comp. 1 (Entry Level Writing course – students need to take EC 1 and 2 before Writing I)</li>
+<li>English Comp. 2 (Entry Level Writing course – students need to take EC 2 before Writing I)</li>
+<li>English Comp. 1B (Entry Level Writing course for multilingual writers – students need to take EC 1B and 2i before Writing I)</li>
+<li>English Comp. 2i (Entry Level Writing course for multilingual writers – students need to take EC 2i before Writing I)</li>
+<li>English Comp. 3 (Writing I)<br>
+</li>
+</ul></li>
+<li>Column C – Course Preference (that is the English composition course the student chose for themselves)<br>
+</li>
+<li>Column D – Post-AWPE Survey (the highest score is 54 – there were 18 questions on the survey with a choice of A - 1 pt., B - 2 pts., C - 3 pts.)<br>
+</li>
+<li>Column E – H/L/A – this indicates whether the students course preference was higher/accurate/lower than where we placed them<br>
+</li>
+<li>Column F – unweighted GPA (this is the student’s self-reported high school GPA, which we obtained from Admissions) – we are hoping to use this as an independent measure</li>
+</ol>
+</section>
+<section id="tables" class="level1">
+<h1>Tables</h1>
+<p>Her data is a little “dirty” Column B (actual Writing program placement) and Column C (self-placement) have different values. Column D I think she means the possible is 54, the high score according to her data is 48.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">lapply</span>(holten, table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>$`ENG COMP Placement`
+
+  1  1B   2  2i   3 
+ 48   7 455  19 590 
+
+$`Course Preference`
+
+   -    1    2 2, 1    3    4    5 
+   1  104  459    1  491   10   26 
+
+$`Post-AWPE Survey`
+
+24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 
+ 1  3  5  4 17 14 26 26 41 41 60 74 86 80 91 75 89 62 72 77 62 53 27 21  5 
+
+$`H/L/A`
+
+  A   H   L 
+571 199 322 
+
+$`Unweighted GPA`
+
+   0 2.03 2.33 2.45  2.5 2.57 2.65 2.66  2.7 2.78 2.92 2.95 2.96    3 3.04 3.05 3.07 3.08 3.13 3.15 3.16 3.17  3.2 3.21 
+  42    1    1    1    1    1    1    1    2    1    1    1    1    1    1    1    1    1    1    2    1    1    1    1 
+3.23 3.25 3.27 3.28 3.29  3.3 3.31 3.33 3.34 3.36 3.37 3.38  3.4 3.41 3.42 3.43 3.44 3.45 3.46 3.47 3.48  3.5 3.51 3.52 
+   3    1    2    1    4    3    2    2    1    1    3    1    5    1    4    1    4    3    2    4    1    9    1    1 
+3.53 3.54 3.55 3.56 3.57 3.58 3.59  3.6 3.61 3.62 3.63 3.64 3.65 3.66 3.67 3.68 3.69  3.7 3.71 3.72 3.73 3.74 3.75 3.76 
+   3    4    2    1    4    4    2    5    4    4    6    3    6   11    6    6    8   10    6    7    7    5    9    7 
+3.77 3.78 3.79  3.8 3.81 3.82 3.83 3.84 3.85 3.86 3.87 3.88 3.89  3.9 3.91 3.92 3.93 3.94 3.95 3.96 3.97 3.98    4 
+  10    9   10   20   11   14   11   15   16   16   17   24   13   39   22   43   20    5   56   67    8    2  405 </code></pre>
+</div>
+</div>
+<p>I wanted to check Column E (H/L/A) against B and C crossed</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(holten<span class="sc">$</span><span class="st">`</span><span class="at">H/L/A</span><span class="st">`</span>, holten<span class="sc">$</span><span class="st">`</span><span class="at">ENG COMP Placement</span><span class="st">`</span>, holten<span class="sc">$</span><span class="st">`</span><span class="at">Course Preference</span><span class="st">`</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>, ,  = -
+
+   
+      1  1B   2  2i   3
+  A   0   0   0   0   0
+  H   0   0   0   0   0
+  L   0   0   0   0   0
+
+, ,  = 1
+
+   
+      1  1B   2  2i   3
+  A  13   1   0   0   0
+  H   0   0   0   0   0
+  L   0   0  58   0  32
+
+, ,  = 2
+
+   
+      1  1B   2  2i   3
+  A   0   0 217   5   0
+  H  22   1   0   0   0
+  L   0   0   0   0 214
+
+, ,  = 2, 1
+
+   
+      1  1B   2  2i   3
+  A   0   0   1   0   0
+  H   0   0   0   0   0
+  L   0   0   0   0   0
+
+, ,  = 3
+
+   
+      1  1B   2  2i   3
+  A   0   0   0   0 319
+  H   9   2 153   8   0
+  L   0   0   0   0   0
+
+, ,  = 4
+
+   
+      1  1B   2  2i   3
+  A   1   0   0   0   0
+  H   0   0   0   0   0
+  L   0   0   4   0   5
+
+, ,  = 5
+
+   
+      1  1B   2  2i   3
+  A   0   0   9   5   0
+  H   1   3   0   0   0
+  L   0   0   0   0   8</code></pre>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
