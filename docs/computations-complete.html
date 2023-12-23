@@ -717,6 +717,10 @@ globalThis.qwebrCreateNonInteractiveSetupElement = function(qwebrCounter) {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./computations-complete.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Think about it</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./holten.html" rel="" target="">
  <span class="menu-text">Holten Project</span></a>
   </li>  
@@ -1084,7 +1088,8 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `names(swiss)`, 
+  `df <- read.csv("https://raw.githubusercontent.com/esmaeilifardi/DecisionTreeClassifier---Penguins.csv-Dataset/main/penguins.csv")
+head(df)`, 
   9);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
