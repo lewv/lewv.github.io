@@ -740,8 +740,10 @@ globalThis.qwebrCreateNonInteractiveSetupElement = function(qwebrCounter) {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#recall" id="toc-recall" class="nav-link active" data-scroll-target="#recall">Recall</a></li>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">tl;dr</a></li>
+  <li><a href="#recall" id="toc-recall" class="nav-link" data-scroll-target="#recall">Recall</a></li>
   <li><a href="#her-questions" id="toc-her-questions" class="nav-link" data-scroll-target="#her-questions">Her questions</a></li>
+  <li><a href="#her-data" id="toc-her-data" class="nav-link" data-scroll-target="#her-data">Her data</a></li>
   <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
   <li><a href="#one-way-tables" id="toc-one-way-tables" class="nav-link" data-scroll-target="#one-way-tables">One Way Tables</a></li>
   <li><a href="#two-way-tables" id="toc-two-way-tables" class="nav-link" data-scroll-target="#two-way-tables">Two Way Tables</a></li>
@@ -910,8 +912,10 @@ globalThis.qwebrCreateMonacoEditorInstance = function (
 
 </header>
 
-<p># tl;dr</p>
+<section id="tldr" class="level1">
+<h1>tl;dr</h1>
 <p>Her project may be more suitable for a Stat 140XP team than a Stat 141XP team. She is having data issues with BruinLearn so has a smaller (1,119 observation 5 variable set from Summer 2023) instead of full set with additional information</p>
+</section>
 <section id="recall" class="level1">
 <h1>Recall</h1>
 <p>We met with Christine Holten at the Faculty Center in November. She’s with the writing program. It turns out that we cannot access any of her data on BruinLearn (maybe in the future, but the tools don’t exist right now)</p>
@@ -925,7 +929,9 @@ globalThis.qwebrCreateMonacoEditorInstance = function (
 </li>
 <li>correlation between student our placement, student course preference, post-AWPE survey scores and unweighted GPA – Can unweighted GPA serve as an independent measure to help us determine when to accept students’ course preference &amp; survey results and when not to accept students’ course preference and place them ourselves?</li>
 </ol>
-<p># Her data</p>
+</section>
+<section id="her-data" class="level1">
+<h1>Her data</h1>
 <p>They do keep some data outside of BruinLearn, here are 1,119 student results from last summer:</p>
 <div id="qwebr-insertion-location-1"></div>
 <script type="module">
@@ -955,11 +961,24 @@ head(holten)`,
 <ol type="1">
 <li>(omitted) Column A – UID<br>
 </li>
-<li>Column B – ENG COMP Placement (that is the English composition course our raters placed them in – the possible placements are: - English Comp. 1 (Entry Level Writing course – students need to take EC 1 and 2 before Writing I) - English Comp. 2 (Entry Level Writing course – students need to take EC 2 before Writing I) - English Comp. 1B (Entry Level Writing course for multilingual writers – students need to take EC 1B and 2i before Writing I) - English Comp. 2i (Entry Level Writing course for multilingual writers – students need to take EC 2i before Writing I) - English Comp. 3 (Writing I)<br>
-3. Column C – Course Preference (that is the English composition course the student chose for themselves)<br>
-4. Column D – Post-AWPE Survey (the highest score is 54 – there were 18 questions on the survey with a choice of A - 1 pt., B - 2 pts., C - 3 pts.)<br>
-5. Column E – H/L/A – this indicates whether the students course preference was higher/accurate/lower than where we placed them<br>
-6. Column F – unweighted GPA (this is the student’s self-reported high school GPA, which we obtained from Admissions) – we are hoping to use this as an independent measure</li>
+<li>Column B – ENG COMP Placement (that is the English composition course our raters placed them in – the possible placements are:</li>
+</ol>
+<ul>
+<li>English Comp. 1 (Entry Level Writing course – students need to take EC 1 and 2 before Writing I)</li>
+<li>English Comp. 2 (Entry Level Writing course – students need to take EC 2 before Writing I)</li>
+<li>English Comp. 1B (Entry Level Writing course for multilingual writers – students need to take EC 1B and 2i before Writing I)</li>
+<li>English Comp. 2i (Entry Level Writing course for multilingual writers – students need to take EC 2i before Writing I)</li>
+<li>English Comp. 3 (Writing I)<br>
+</li>
+</ul>
+<ol start="3" type="1">
+<li>Column C – Course Preference (that is the English composition course the student chose for themselves)<br>
+</li>
+<li>Column D – Post-AWPE Survey (the highest score is 54 – there were 18 questions on the survey with a choice of A - 1 pt., B - 2 pts., C - 3 pts.)<br>
+</li>
+<li>Column E – H/L/A – this indicates whether the students course preference was higher/accurate/lower than where we placed them<br>
+</li>
+<li>Column F – unweighted GPA (this is the student’s self-reported high school GPA, which we obtained from Admissions) – we are hoping to use this as an independent measure</li>
 </ol>
 </section>
 <section id="one-way-tables" class="level1">
@@ -1004,7 +1023,7 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `  table(holten$ENG.COMP.Placement, holten$Course.Preference, holten$H.L.A)`, 
+  `table(holten$ENG.COMP.Placement, holten$Course.Preference, holten$H.L.A)`, 
   3);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
