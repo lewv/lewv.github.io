@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This site was produced with Quarto in RStudio."
+    "text": "This site was produced with WebR and Quarto in RStudio and is currently hosted by GitHub. It was created for the students of Statistics & Data Science 101A.\nLecture 1: Let’s start with a quick R Refresher https://lewv.github.io/RRefresher.html\nLecture 2: And professional story telling with data"
   },
   {
     "objectID": "holten.html",
@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "the future starts now",
     "section": "",
-    "text": "This is a Quarto website hosted by GitHub.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBut I learned the most from this user: https://github.com/coatless/quarto-webr"
+    "text": "This is a Quarto website hosted by GitHub and utlizes WebR. This combination allows you to run R code in the browser without the need for an R server to execute the code.\nStatistics 101A: https://lewv.github.io/about.html\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nTo learn more about WebR visit https://docs.r-wasm.org/webr/latest/\nBut I learned the most from this user: https://github.com/coatless/quarto-webr"
   },
   {
     "objectID": "RRefresher.html",
@@ -39,6 +39,6 @@
     "href": "RRefresher.html#examples",
     "title": "R Refresher",
     "section": "Examples",
-    "text": "Examples\nThe normal. pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can change the pnorm defaults to accommodate a different situation, here, SAT scores combined math/verbal:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nqnorm, given a probability what is the value of the associated quantile?\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\ndnorm - height of the probability density function at given points. In the normal, points farther from the mean have lower density\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThere are other distributions, but the same four letter identifier holds\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nadditional density example\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Examples\nThe normal. pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can change the pnorm defaults to accommodate a different situation, here, SAT scores combined math/verbal:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nqnorm, given a probability what is the value of the associated quantile?\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\ndnorm - height of the probability density function at given points. In the normal, points farther from the mean have lower density\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThere are other distributions, but the same four letter identifier holds\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nadditional density example\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPlease give it a try, you can find a longer list of distribution here: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Distributions.html\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   }
 ]
