@@ -936,9 +936,11 @@ currentDocumentLocation.appendChild(initializedElement);
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
   `webr::install("ggplot2")
+webr::install("knitr")
 webr::install("dplyr")
 webr::install("tidyr")
 library(ggplot2)
+library(knitr)
 library(dplyr)
 library(tidyr)`, 
   1);
@@ -1028,9 +1030,11 @@ qwebrCreateMonacoEditorInstance(
 <section id="data-external-to-r" class="level1">
 <h1>Data External to R</h1>
 <p>This is the general form in R (won’t run online)</p>
-<p><code>{webr-r, eval = FALSE} my_data0 &lt;- read.table("filename", header=TRUE, na.strings="NA", sep = "")</code></p>
+<pre><code>my_data0 &lt;- read.table("filename", header=TRUE,
+na.strings="NA", sep = "")</code></pre>
 <p>There are modifications to this, for example, read.csv() in concert with file.choose() to allow you to select files from your local drive (won’t work here, just an example)</p>
-<p><code>{webr-r, eval = FALSE} my_data1 &lt;- read.csv(file.choose(), header=TRUE, na.strings="NA")</code></p>
+<pre><code>my_data1 &lt;- read.csv(file.choose(), header=TRUE,
+na.strings="NA")</code></pre>
 <p>We can read data from a website:</p>
 <div id="qwebr-insertion-location-6"></div>
 <script type="module">
@@ -1268,7 +1272,9 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `## Please try plotting or generating some values`, 
+  `## Please try plotting or generating some values
+
+`, 
   16);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
@@ -1276,8 +1282,10 @@ qwebrCreateMonacoEditorInstance(
 </section>
 <section id="visualizing-data" class="level1">
 <h1>Visualizing Data</h1>
-<p>We can output graphics by using the GUI or directly in our code:</p>
-<p><code>{webr-r, eval = FALSE} pdf("myhist.pdf", height=5, width=5) hist(rnorm(100)) dev.off()</code></p>
+<p>We can output graphics by using the GUI or directly in our code (will only run locally):</p>
+<pre><code>pdf("myhist.pdf", height=5, width=5)
+hist(rnorm(100))
+dev.off()</code></pre>
 <p>Base R plot function is a reasonable starting point and convenient:</p>
 <div id="qwebr-insertion-location-17"></div>
 <script type="module">
@@ -1424,8 +1432,6 @@ qwebrCreateMonacoEditorInstance(
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>ggplot will be much happier with “long” (AKA “tall” maybe also “stacked”)</p>
-<p><code>{webr-r, message = FALSE} ggplot(anscombe_long, aes(x = x, y = y, color = set)) +   geom_point() +   facet_wrap(~ set) +   labs(title = "Anscombe's Quartet",        x = "X value",        y = "Y value") +   theme_minimal() +   theme(legend.position = "none")</code></p>
-<p>We can calculate the correlations for each set, the group_by() function combined with summarize in dplyr is very useful for that.</p>
 <div id="qwebr-insertion-location-23"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1441,11 +1447,38 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
+  `ggplot(anscombe_long, aes(x = x, y = y, color = set)) +
+  geom_point() +
+  facet_wrap(~ set) +
+  labs(title = "Anscombe's Quartet",
+       x = "X value",
+       y = "Y value") +
+  theme_minimal() +
+  theme(legend.position = "none")`, 
+  23);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>We can calculate the correlations for each set, the group_by() function combined with summarize in dplyr is very useful for that.</p>
+<div id="qwebr-insertion-location-24"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-24");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    24
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
   `correlations <- anscombe_long %>% 
   group_by(set) %>% 
   summarize(correlation = cor(x, y))
 print(correlations)`, 
-  23);
+  24);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
