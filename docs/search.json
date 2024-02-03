@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This site was produced with Quarto"
+    "text": "This site was produced with Quarto in RStudio."
   },
   {
     "objectID": "holten.html",
@@ -26,5 +26,19 @@
     "title": "the future starts now",
     "section": "",
     "text": "This is a Quarto website hosted by GitHub.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBut I learned the most from this user: https://github.com/coatless/quarto-webr"
+  },
+  {
+    "objectID": "RRefresher.html",
+    "href": "RRefresher.html",
+    "title": "R Refresher",
+    "section": "",
+    "text": "This is an R Refresher adapted from Weisberg (2014) We will use packages alr4, ggplot2, dplyr and tidyr"
+  },
+  {
+    "objectID": "RRefresher.html#examples",
+    "href": "RRefresher.html#examples",
+    "title": "R Refresher",
+    "section": "Examples",
+    "text": "Examples\nThe normal. pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can change the pnorm defaults to accommodate a different situation, here, SAT scores combined math/verbal:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nqnorm, given a probability what is the value of the associated quantile?\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\ndnorm - height of the probability density function at given points. In the normal, points farther from the mean have lower density\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThere are other distributions, but the same four letter identifier holds\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nadditional density example\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   }
 ]
