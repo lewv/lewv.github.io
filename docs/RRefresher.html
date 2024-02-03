@@ -1027,11 +1027,11 @@ qwebrCreateMonacoEditorInstance(
 </section>
 <section id="data-external-to-r" class="level1">
 <h1>Data External to R</h1>
-<p>This is the general form in R</p>
+<p>This is the general form in R (won’t run online)</p>
 <p><code>{webr-r, eval = FALSE} my_data0 &lt;- read.table("filename", header=TRUE, na.strings="NA", sep = "")</code></p>
 <p>There are modifications to this, for example, read.csv() in concert with file.choose() to allow you to select files from your local drive (won’t work here, just an example)</p>
 <p><code>{webr-r, eval = FALSE} my_data1 &lt;- read.csv(file.choose(), header=TRUE, na.strings="NA")</code></p>
-<p>A good first step involves examining the structure of the object:</p>
+<p>We can read data from a website:</p>
 <div id="qwebr-insertion-location-6"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1047,11 +1047,12 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `str(my_data1)`, 
+  `my_data2 <-read.table("https://raw.githubusercontent.com/lewv/S24STATS101A/main/data/holten.csv",
+               header=TRUE, sep=",")`, 
   6);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>We can read data from a website:</p>
+<p>Another good first step involves examining the structure of the object:</p>
 <div id="qwebr-insertion-location-7"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1067,8 +1068,7 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `my_data2 <-read.table("https://raw.githubusercontent.com/lewv/S24STATS101A/main/data/holten.csv",
-               header=TRUE, sep=",")`, 
+  `str(my_data2)`, 
   7);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
@@ -1076,7 +1076,10 @@ qwebrCreateMonacoEditorInstance(
 <section id="distributions" class="level1">
 <h1>Distributions</h1>
 <p>It’s important to know how to use the functions associated with distributions in R as many advanced textbooks do not have t-tables etc. The first letters of each distribution family have the following meaning:</p>
-<p>r - random generation, given a number of observations p - distribution function, given a quantile q - quantile function, given a probability d - density, given a quantile</p>
+<p>r - random generation, given a number of observations<br>
+p - distribution function, given a quantile<br>
+q - quantile function, given a probability<br>
+d - density, given a quantile</p>
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
 <p>The normal. pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:</p>
@@ -1249,13 +1252,7 @@ plot(x, dchisq(x, df = 1), type = "l",
   15);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-</section>
-<section id="visualizing-data" class="level1">
-<h1>Visualizing Data</h1>
-<p>We can output graphics by using the GUI or directly in our code:</p>
-<p><code>{webr-r, eval = FALSE} pdf("myhist.pdf", height=5, width=5) hist(rnorm(100)) dev.off()</code></p>
-<p>Base R plot function is a reasonable starting point and convenient:</p>
+<p>Please give it a try, you can find a longer list of distribution here: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Distributions.html</p>
 <div id="qwebr-insertion-location-16"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1271,17 +1268,17 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `plot(iris$Sepal.Width ~ iris$Sepal.Length, 
-     col = iris$Species, pch = 20, 
-     main = "Sepal Width on Sepal Length",
-     ylab = "Sepal Width",
-     xlab = "Sepal Length")`, 
+  `## Please try plotting or generating some values`, 
   16);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>We have more data visualization power with ggplot. We could add straight lines (AKA fit linear models) for each species and for overall</p>
-<p><code>{webr-r, message = FALSE} ggplot(iris, aes(x = Sepal.Length,                   y = Sepal.Width,                  color = Species)) +   geom_point() +    geom_smooth(method = 'lm', se = FALSE) +   geom_smooth(method = 'lm', se = FALSE, color = "black", aes(linetype = "Overall")) +  # Black line for overall trend   scale_color_manual(values = c("setosa" = "red", "versicolor" = "green", "virginica" = "blue")) +   scale_linetype_manual(name = "", values = c("Overall" = "solid"), labels = "Overall Trend") +   guides(color = guide_legend(title = "By Species")) +   theme_minimal()</code></p>
-<p>Another example, first using base R to plot 4 graphs in a single window:</p>
+</section>
+</section>
+<section id="visualizing-data" class="level1">
+<h1>Visualizing Data</h1>
+<p>We can output graphics by using the GUI or directly in our code:</p>
+<p><code>{webr-r, eval = FALSE} pdf("myhist.pdf", height=5, width=5) hist(rnorm(100)) dev.off()</code></p>
+<p>Base R plot function is a reasonable starting point and convenient:</p>
 <div id="qwebr-insertion-location-17"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1290,6 +1287,32 @@ const currentDocumentLocation = document.getElementById("qwebr-insertion-locatio
 // Initalize an interactive element
 const initializedElement =   qwebrCreateInteractiveElement(
     17
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `plot(iris$Sepal.Width ~ iris$Sepal.Length, 
+     col = iris$Species, pch = 20, 
+     main = "Sepal Width on Sepal Length",
+     ylab = "Sepal Width",
+     xlab = "Sepal Length")`, 
+  17);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>We have more data visualization power with ggplot. We could add straight lines (AKA fit linear models) for each species and for overall</p>
+<p><code>{webr-r, message = FALSE} ggplot(iris, aes(x = Sepal.Length,                   y = Sepal.Width,                  color = Species)) +   geom_point() +    geom_smooth(method = 'lm', se = FALSE) +   geom_smooth(method = 'lm', se = FALSE, color = "black", aes(linetype = "Overall")) +  # Black line for overall trend   scale_color_manual(values = c("setosa" = "red", "versicolor" = "green", "virginica" = "blue")) +   scale_linetype_manual(name = "", values = c("Overall" = "solid"), labels = "Overall Trend") +   guides(color = guide_legend(title = "By Species")) +   theme_minimal()</code></p>
+<p>Another example, first using base R to plot 4 graphs in a single window:</p>
+<div id="qwebr-insertion-location-18"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-18");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    18
   );
 
 // Add the interactive element into the document scope
@@ -1307,30 +1330,11 @@ for (i in 1:4){
   abline(lm( anscombe[, ys[i]] ~ anscombe[, xs[i]]))
 }
 par(.pardefault) # restore`, 
-  17);
+  18);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>We can do the same with ggplot, but it requires more data handling</p>
 <p>First, pivot the data from wide to long:</p>
-<div id="qwebr-insertion-location-18"></div>
-<script type="module">
-// Retrieve the insertion point
-const currentDocumentLocation = document.getElementById("qwebr-insertion-location-18");
-
-// Initalize an interactive element
-const initializedElement =   qwebrCreateInteractiveElement(
-    18
-  );
-
-// Add the interactive element into the document scope
-currentDocumentLocation.appendChild(initializedElement);
-
-// Initialize a Monaco Editor Instance
-qwebrCreateMonacoEditorInstance(
-  `head(anscombe)`, 
-  18);
-</script>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div id="qwebr-insertion-location-19"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1346,14 +1350,10 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `anscombe_long <- anscombe %>% 
-  pivot_longer(cols = everything(),
-               names_to = c(".value", "set"),
-               names_pattern = "(.)(.)")`, 
+  `head(anscombe)`, 
   19);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>Always check your results:</p>
 <div id="qwebr-insertion-location-20"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1369,13 +1369,14 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `head(anscombe_long)`, 
+  `anscombe_long <- anscombe %>% 
+  pivot_longer(cols = everything(),
+               names_to = c(".value", "set"),
+               names_pattern = "(.)(.)")`, 
   20);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>ggplot will be much happier with “long” (AKA “tall” maybe also “stacked”)</p>
-<p><code>{webr-r, message = FALSE} ggplot(anscombe_long, aes(x = x, y = y, color = set)) +   geom_point() +   facet_wrap(~ set) +   labs(title = "Anscombe's Quartet",        x = "X value",        y = "Y value") +   theme_minimal() +   theme(legend.position = "none")</code></p>
-<p>We can calculate the correlations for each set, the group_by() function combined with summarize in dplyr is very useful for that.</p>
+<p>Always check your results:</p>
 <div id="qwebr-insertion-location-21"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1391,11 +1392,33 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
+  `head(anscombe_long)`, 
+  21);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>ggplot will be much happier with “long” (AKA “tall” maybe also “stacked”)</p>
+<p><code>{webr-r, message = FALSE} ggplot(anscombe_long, aes(x = x, y = y, color = set)) +   geom_point() +   facet_wrap(~ set) +   labs(title = "Anscombe's Quartet",        x = "X value",        y = "Y value") +   theme_minimal() +   theme(legend.position = "none")</code></p>
+<p>We can calculate the correlations for each set, the group_by() function combined with summarize in dplyr is very useful for that.</p>
+<div id="qwebr-insertion-location-22"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-22");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    22
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
   `correlations <- anscombe_long %>% 
   group_by(set) %>% 
   summarize(correlation = cor(x, y))
 print(correlations)`, 
-  21);
+  22);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
