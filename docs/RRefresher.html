@@ -935,7 +935,8 @@ currentDocumentLocation.appendChild(initializedElement);
 
 // Initialize a Monaco Editor Instance
 qwebrCreateMonacoEditorInstance(
-  `library(ggplot2)
+  `webr::install("ggplot2", "dplyr", "tidyr")
+library(ggplot2)
 library(dplyr)
 library(tidyr)`, 
   1);
