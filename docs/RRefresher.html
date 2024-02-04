@@ -944,7 +944,7 @@ library(tidyr)`,
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <section id="built-in-data" class="level1">
 <h1>Built in data</h1>
-<p>Upon loading library dplyr we will have access to the dataset named “starwars”. Whenever one has a new dataset, take a look to better understand it:</p>
+<p>Upon loading library dplyr we will have access to the built-in dataset named “starwars”. Whenever one has been given a dataset, take a closer look to better understand it:</p>
 <div id="qwebr-insertion-location-2"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1025,13 +1025,13 @@ qwebrCreateMonacoEditorInstance(
 </section>
 <section id="data-external-to-r" class="level1">
 <h1>Data External to R</h1>
-<p>This is the general form in R (won’t run online)</p>
+<p>This is the general form in base R (won’t run on this website, you’ll need to try it in R on your own computer)</p>
 <pre><code>my_data0 &lt;- read.table("filename", header=TRUE,
 na.strings="NA", sep = "")</code></pre>
-<p>There are modifications to this, for example, read.csv() in concert with file.choose() to allow you to select files from your local drive (won’t work here, just an example)</p>
+<p>There are modifications to this basic code, for example, read.csv() is just a alias of read.table with separator = “,” . We can use it in concert with file.choose() to allow you to select files from your local drive (won’t work here, just an example)</p>
 <pre><code>my_data1 &lt;- read.csv(file.choose(), header=TRUE,
 na.strings="NA")</code></pre>
-<p>We can read data from a website:</p>
+<p>We can also read data from a website, note the use of read.table() with sep = “,”:</p>
 <div id="qwebr-insertion-location-6"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1072,10 +1072,13 @@ qwebrCreateMonacoEditorInstance(
   7);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>This will help identify numeric and non-numeric data.</p>
+<p>We could load an additional package, readr, to allow us to read additional data formats such as Excel files (this is something you can do in section or in an assignment)</p>
 </section>
 <section id="distributions" class="level1">
 <h1>Distributions</h1>
-<p>It’s important to know how to use the functions associated with distributions in R as many advanced textbooks do not have t-tables etc. The first letters of each distribution family have the following meaning:</p>
+<p>It’s important to know how to use the functions associated with distributions in R as many advanced textbooks do not have t-tables etc.</p>
+<p>The first letters of each distribution family have the following meaning:</p>
 <p>r - random generation, given a number of observations<br>
 p - distribution function, given a quantile<br>
 q - quantile function, given a probability<br>
