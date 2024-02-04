@@ -1118,7 +1118,7 @@ qwebrCreateMonacoEditorInstance(
 starwars$hair_color_first <- sapply(strsplit(as.character(starwars$hair_color), ","), 
                                     function(x) x[1])
 # check it
-table(starwars$hair_color_first)`, 
+table(starwars$hair_color_first, useNA = "always")`, 
   7);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
@@ -1165,7 +1165,7 @@ qwebrCreateMonacoEditorInstance(
   mutate(hair_color_1_dplyr = sapply(strsplit(as.character(hair_color), ","), function(x) x[1]))
 
 # check it
-table(starwars$hair_color_1_dplyr)`, 
+table(starwars$hair_color_1_dplyr, useNA = "always")`, 
   9);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
@@ -1839,7 +1839,7 @@ qwebrCreateMonacoEditorInstance(
   36);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>The remaining functions deal with appearance such as labels, legends</p>
+<p>The remaining functions deal with appearance such as labels, legends and maybe adding additional geoms:</p>
 <div id="qwebr-insertion-location-37"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1857,6 +1857,7 @@ currentDocumentLocation.appendChild(initializedElement);
 qwebrCreateMonacoEditorInstance(
   `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
   geom_point() +
+  geom_smooth() +
   labs(title = "Palmer Penguin Populations",
        x = "Flipper Length (mm)",
        y = "Body Mass (g)") +
