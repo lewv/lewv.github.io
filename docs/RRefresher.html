@@ -749,12 +749,29 @@ globalThis.qwebrCreateNonInteractiveSetupElement = function(qwebrCounter) {
   <li><a href="#using-dplyr-with-a-little-tidyr" id="toc-using-dplyr-with-a-little-tidyr" class="nav-link" data-scroll-target="#using-dplyr-with-a-little-tidyr">using dplyr with a little tidyr</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#data-external-to-r" id="toc-data-external-to-r" class="nav-link" data-scroll-target="#data-external-to-r">Data External to R</a></li>
+  <li><a href="#data-external-to-r" id="toc-data-external-to-r" class="nav-link" data-scroll-target="#data-external-to-r">Data External to R</a>
+  <ul class="collapse">
+  <li><a href="#locally" id="toc-locally" class="nav-link" data-scroll-target="#locally">locally</a></li>
+  <li><a href="#remotely" id="toc-remotely" class="nav-link" data-scroll-target="#remotely">remotely</a></li>
+  </ul></li>
   <li><a href="#distributions" id="toc-distributions" class="nav-link" data-scroll-target="#distributions">Distributions</a>
   <ul class="collapse">
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <ul class="collapse">
+  <li><a href="#normal" id="toc-normal" class="nav-link" data-scroll-target="#normal">normal</a></li>
+  <li><a href="#t" id="toc-t" class="nav-link" data-scroll-target="#t">t</a></li>
+  <li><a href="#chi-squared" id="toc-chi-squared" class="nav-link" data-scroll-target="#chi-squared">chi-squared</a></li>
+  <li><a href="#test-yourself" id="toc-test-yourself" class="nav-link" data-scroll-target="#test-yourself">Test yourself</a></li>
   </ul></li>
-  <li><a href="#visualizing-data" id="toc-visualizing-data" class="nav-link" data-scroll-target="#visualizing-data">Visualizing Data</a></li>
+  </ul></li>
+  <li><a href="#visualizing-data" id="toc-visualizing-data" class="nav-link" data-scroll-target="#visualizing-data">Visualizing Data</a>
+  <ul class="collapse">
+  <li><a href="#plot-in-base-r" id="toc-plot-in-base-r" class="nav-link" data-scroll-target="#plot-in-base-r">plot() in base R</a></li>
+  <li><a href="#ggplot" id="toc-ggplot" class="nav-link" data-scroll-target="#ggplot">ggplot( )</a></li>
+  <li><a href="#plot-within-a-for-loop" id="toc-plot-within-a-for-loop" class="nav-link" data-scroll-target="#plot-within-a-for-loop">plot() within a for loop</a></li>
+  <li><a href="#tidyverse-style" id="toc-tidyverse-style" class="nav-link" data-scroll-target="#tidyverse-style">Tidyverse style</a></li>
+  <li><a href="#five-minute-ggplot-refresher" id="toc-five-minute-ggplot-refresher" class="nav-link" data-scroll-target="#five-minute-ggplot-refresher">Five minute ggplot refresher</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -1132,12 +1149,17 @@ qwebrCreateMonacoEditorInstance(
 </section>
 <section id="data-external-to-r" class="level1">
 <h1>Data External to R</h1>
+<section id="locally" class="level2">
+<h2 class="anchored" data-anchor-id="locally">locally</h2>
 <p>This is the general form in base R (won’t run on this website, you’ll need to try it in R on your own computer)</p>
 <pre><code>my_data0 &lt;- read.table("filename", header=TRUE,
 na.strings="NA", sep = "")</code></pre>
 <p>There are modifications to this basic code, for example, read.csv() is just a alias of read.table with separator = “,” . We can use it in concert with file.choose() to allow you to select files from your local drive (won’t work here, just an example)</p>
 <pre><code>my_data1 &lt;- read.csv(file.choose(), header=TRUE,
 na.strings="NA")</code></pre>
+</section>
+<section id="remotely" class="level2">
+<h2 class="anchored" data-anchor-id="remotely">remotely</h2>
 <p>We can also read data from a website, note the use of read.table() with sep = “,”:</p>
 <div id="qwebr-insertion-location-9"></div>
 <script type="module">
@@ -1182,6 +1204,7 @@ qwebrCreateMonacoEditorInstance(
 <p>This will help identify numeric and non-numeric data.</p>
 <p>We could load an additional package, readr, to allow us to read additional data formats such as Excel files (this is something you can do in section or in an assignment)</p>
 </section>
+</section>
 <section id="distributions" class="level1">
 <h1>Distributions</h1>
 <p>It’s important to know how to use the functions associated with distributions in R as many advanced textbooks do not have t-tables etc.<br>
@@ -1192,6 +1215,8 @@ q - quantile function, given a probability<br>
 d - density, given a quantile</p>
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="normal" class="level3">
+<h3 class="anchored" data-anchor-id="normal">normal</h3>
 <p>The normal distribution’s root is “norm”. The function pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:</p>
 <div id="qwebr-insertion-location-11"></div>
 <script type="module">
@@ -1276,6 +1301,9 @@ qwebrCreateMonacoEditorInstance(
   14);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="t" class="level3">
+<h3 class="anchored" data-anchor-id="t">t</h3>
 <p>There are other distributions with different root names, but the same four letter identifier holds</p>
 <div id="qwebr-insertion-location-15"></div>
 <script type="module">
@@ -1318,6 +1346,9 @@ qt(0.975, df = 10)`,
   16);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="chi-squared" class="level3">
+<h3 class="anchored" data-anchor-id="chi-squared">chi-squared</h3>
 <div id="qwebr-insertion-location-17"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1338,7 +1369,7 @@ qchisq(0.95, df = 1)`,
   17);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>additional density example</p>
+<p>an additional density example and our bridge to visualization</p>
 <div id="qwebr-insertion-location-18"></div>
 <script type="module">
 // Retrieve the insertion point
@@ -1362,6 +1393,9 @@ plot(x, dchisq(x, df = 1), type = "l",
   18);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="test-yourself" class="level3">
+<h3 class="anchored" data-anchor-id="test-yourself">Test yourself</h3>
 <p>Please try generating values from another distribution (e.g., F, Poisson), you can find a longer list of distributions here: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Distributions.html</p>
 <div id="qwebr-insertion-location-19"></div>
 <script type="module">
@@ -1386,12 +1420,15 @@ qwebrCreateMonacoEditorInstance(
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 </section>
+</section>
 <section id="visualizing-data" class="level1">
 <h1>Visualizing Data</h1>
 <p>We can output graphics by using the GUI or directly in our code (will only run locally):</p>
 <pre><code>pdf("myhist.pdf", height=5, width=5)
 hist(rnorm(100))
 dev.off()</code></pre>
+<section id="plot-in-base-r" class="level2">
+<h2 class="anchored" data-anchor-id="plot-in-base-r">plot() in base R</h2>
 <p>Base R’s plot() function is a reasonable starting point and convenient:</p>
 <div id="qwebr-insertion-location-20"></div>
 <script type="module">
@@ -1416,6 +1453,9 @@ qwebrCreateMonacoEditorInstance(
   20);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="ggplot" class="level2">
+<h2 class="anchored" data-anchor-id="ggplot">ggplot( )</h2>
 <p>We have more data visualization power with ggplot. We could add straight lines (AKA fit linear models) for each species and for overall</p>
 <div id="qwebr-insertion-location-21"></div>
 <script type="module">
@@ -1445,6 +1485,9 @@ qwebrCreateMonacoEditorInstance(
   21);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="plot-within-a-for-loop" class="level2">
+<h2 class="anchored" data-anchor-id="plot-within-a-for-loop">plot() within a for loop</h2>
 <p>Another example, first using base R to plot 4 graphs in a single window:</p>
 <div id="qwebr-insertion-location-22"></div>
 <script type="module">
@@ -1474,6 +1517,9 @@ par(.pardefault) # restore`,
   22);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="tidyverse-style" class="level2">
+<h2 class="anchored" data-anchor-id="tidyverse-style">Tidyverse style</h2>
 <p>We can do the same with ggplot, but it requires more data handling</p>
 <p>First, pivot the data from wide to long/tall:</p>
 <div id="qwebr-insertion-location-23"></div>
@@ -1587,8 +1633,166 @@ print(correlations)`,
   27);
 </script>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="five-minute-ggplot-refresher" class="level2">
+<h2 class="anchored" data-anchor-id="five-minute-ggplot-refresher">Five minute ggplot refresher</h2>
+<p>If there is only one package you need in R, it’s ggplot. It’s simple and logical and flows with data beautifully. We can use penguins</p>
+<div id="qwebr-insertion-location-28"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-28");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    28
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `penguins <- read.csv("https://gist.githubusercontent.com/slopp/ce3b90b9168f2f921784de84fa445651/raw/4ecf3041f0ed4913e7c230758733948bc561f434/penguins.csv")
+str(penguins)`, 
+  28);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>ggplot needs to know what data you plan to use and it needs to have an aesthetic (aes) specified.</p>
+<div id="qwebr-insertion-location-29"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-29");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    29
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species))`, 
+  29);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>No error, but no graphic. All we have done is specified the data and given ggplot a sense of how the graphic should appear (x, y, color) as it relates to the features.</p>
+<p>The “+” separates “layers”. Think of ggplot as like making a cake, you lay down the foundation and then you start decorating. Next up, the geom_ which tell ggplot how the features should be plotted.</p>
+<div id="qwebr-insertion-location-30"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-30");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    30
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() `, 
+  30);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>That is just about it. I do recommend you learn how to “facet” (condition) the plots:</p>
+<div id="qwebr-insertion-location-31"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-31");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    31
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() +
+  facet_wrap(~ island)`, 
+  31);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>read “as a function of island”, if you wanted island on the rows, move to facet_grid()</p>
+<div id="qwebr-insertion-location-32"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-32");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    32
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() +
+  facet_grid(rows = vars(island))`, 
+  32);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>a better use of facet_grid</p>
+<div id="qwebr-insertion-location-33"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-33");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    33
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() +
+  facet_grid(sex ~ island)`, 
+  33);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>The remaining functions deal with appearance such as labels, legends</p>
+<div id="qwebr-insertion-location-34"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-34");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    34
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() +
+  labs(title = "Palmer Penguin Populations",
+       x = "Flipper Length (mm)",
+       y = "Body Mass (g)") +
+  theme_classic()`, 
+  34);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
