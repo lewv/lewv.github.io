@@ -39,6 +39,41 @@
     "href": "RRefresher.html#examples",
     "title": "R Refresher",
     "section": "Examples",
-    "text": "Examples\nThe normal. pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can change the pnorm defaults to accommodate a different situation, here, SAT scores combined math/verbal:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nqnorm, given a probability what is the value of the associated quantile?\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\ndnorm - height of the probability density function at given points. In the normal, points farther from the mean have lower density\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThere are other distributions, but the same four letter identifier holds\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nadditional density example\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPlease give it a try, you can find a longer list of distribution here: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Distributions.html\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Examples\nThe normal distribution’s root is “norm”. The function pnorm() takes a quantile and returns a probability of observing a value less than or equal to 1.96 in a standard normal distribution:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can change the pnorm defaults to accommodate a different situation, here, SAT scores combined math/verbal:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nqnorm() answers the question - given a probability what is the value of the associated quantile?\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\ndnorm() - returns the height of the probability density function at points specified by the programmer. In the normal distribution, points farther from the mean have lower density\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThere are other distributions with different root names, but the same four letter identifier holds\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nadditional density example\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPlease try generating values from another distribution (e.g., F, Poisson), you can find a longer list of distributions here: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/Distributions.html\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "RRefresher.html#dim",
+    "href": "RRefresher.html#dim",
+    "title": "R Refresher",
+    "section": "dim()",
+    "text": "dim()\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "RRefresher.html#head",
+    "href": "RRefresher.html#head",
+    "title": "R Refresher",
+    "section": "head()",
+    "text": "head()\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "RRefresher.html#summary",
+    "href": "RRefresher.html#summary",
+    "title": "R Refresher",
+    "section": "summary()",
+    "text": "summary()\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nSummary is being abused here. While it is fast and gives us the count of NA (missing), do consider that rounding error could occur for the summary statistics. Functions for computing stats like mean( ) can be found elsewhere:"
+  },
+  {
+    "objectID": "RRefresher.html#descriptive-basics",
+    "href": "RRefresher.html#descriptive-basics",
+    "title": "R Refresher",
+    "section": "descriptive basics",
+    "text": "descriptive basics\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "RRefresher.html#conditioninggrouping",
+    "href": "RRefresher.html#conditioninggrouping",
+    "title": "R Refresher",
+    "section": "conditioning/grouping",
+    "text": "conditioning/grouping\nWe will use more of this later in the course, but for now, you should possess this basic skill:\n\nin base R\nWe could use some basic character manipulation to make the result a little more compact.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nusing dplyr with a little tidyr\nThis is a preferred alternative because (1) it has more options and (2) you don’t lose as much information. First some data preparation, similar to the base R solution\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf we were to stop after the summarize() we would have a “long”/“tall” result suitable for ggplot and other functions. By using ungroup() and a pivot_wider (from tidyr) we arrive at a comparable outcome, notice the missing categories:\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe will delve into more data handling later."
   }
 ]
