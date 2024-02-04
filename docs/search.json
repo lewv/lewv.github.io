@@ -32,7 +32,7 @@
     "href": "RRefresher.html",
     "title": "R Refresher",
     "section": "",
-    "text": "This is an R Refresher adapted from Weisberg (2014) We will use packages alr4, ggplot2, dplyr and tidyr"
+    "text": "This is an R Refresher adapted from Weisberg (2014) We will use packages ggplot2, knitr, dplyr and tidyr"
   },
   {
     "objectID": "RRefresher.html#examples",
