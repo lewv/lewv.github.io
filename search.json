@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "Presenting.html#tonights-goals",
+    "href": "Presenting.html#tonights-goals",
+    "title": "Presenting @ DataFest",
+    "section": "Tonight’s goals",
+    "text": "Tonight’s goals\n\nTo offer guidance and\nTo encourage you to make your discoveries accessible and understandable\n\nTo the entire DataFest audience (from N00b to expert)\n\nyet uphold the credibility and accuracy of your work."
+  },
+  {
+    "objectID": "Presenting.html#know-the-level-of-understanding-of-your-audience.",
+    "href": "Presenting.html#know-the-level-of-understanding-of-your-audience.",
+    "title": "Presenting @ DataFest",
+    "section": "1. Know the level of understanding of your audience.",
+    "text": "1. Know the level of understanding of your audience.\n\nAfter 40+ hours\n\nYour peers will be experts BUT they do not have judging power.\n\nDo not worry about peers judging you when you are presenting.\n\nThe judges have judging power. Two flavors:\n\nThe stakeholders e.g., 2015 Edmunds.com managers/lawyers judging\nThe professional Statisticians, Data Scientists, etc."
+  },
+  {
+    "objectID": "Presenting.html#tailor-your-presentation.",
+    "href": "Presenting.html#tailor-your-presentation.",
+    "title": "Presenting @ DataFest",
+    "section": "2. Tailor your presentation.",
+    "text": "2. Tailor your presentation.\n\nExample. Edmunds.com DataFest 2015.\n\nTwo teams vying for the top prize (Best Insight).\n\nTeam One: a sophisticated analysis, machine learning techniques involving consumer choice modeling. Their team leader had wheeled in a modified server (this is 2015) with 32GB of memory to compete at DataFest."
+  },
+  {
+    "objectID": "Presenting.html#tailor-your-presentation-accordingly.-contd",
+    "href": "Presenting.html#tailor-your-presentation-accordingly.-contd",
+    "title": "Presenting @ DataFest",
+    "section": "2. Tailor your presentation accordingly. (cont’d)",
+    "text": "2. Tailor your presentation accordingly. (cont’d)\n\nTeam Two: a basic analysis, their presentation slide just had a few numbers from tables, a test, and pretty graphics.\nWho do you think won?\n\nTeam Two.\n\nThe Team One cried foul and said they were “ripped off”.\nThe judging panel responded that the data provider “didn’t understand Team One’s analysis and as result, could not use the recommendation”"
+  },
+  {
+    "objectID": "Presenting.html#kiss",
+    "href": "Presenting.html#kiss",
+    "title": "Presenting @ DataFest",
+    "section": "3. KISS",
+    "text": "3. KISS\n\nTeam One opened with “We utilized walking-forward cross-validation” (AKA time series cross validation or time series split)\nTMI\nIt might be wiser to mention it only when the experts ask if you performed any cross-validation.\nThink about it"
+  },
+  {
+    "objectID": "Presenting.html#kiss-contd",
+    "href": "Presenting.html#kiss-contd",
+    "title": "Presenting @ DataFest",
+    "section": "3. KISS! (cont’d)",
+    "text": "3. KISS! (cont’d)\n\nIf you are going to step up there and begin talking about performing a rolling time series split of the data, you may be compressing your audience from a few hundred to a few dozen people in that room.\n\nIt’s OK, but if you are going to do that, your compressed audience MUST INCLUDE the data provider.\n\nIf the data provider understands your talk, guess what…\n\nthe experts will too.\n\nGive enough detail to establish credibility with the experts but avoid overwhelming the non-experts."
+  },
+  {
+    "objectID": "Presenting.html#where-to-start-suggestions",
+    "href": "Presenting.html#where-to-start-suggestions",
+    "title": "Presenting @ DataFest",
+    "section": "4. Where to Start (suggestions)",
+    "text": "4. Where to Start (suggestions)\n\nSuggestion: clear statements of\n\nWhat your analysis aimed to achieve AND\nWhy your analysis matters\n\nDo this to engage your audience from the beginning."
+  },
+  {
+    "objectID": "Presenting.html#suggestion-a-picture-is-worth-1000-words.",
+    "href": "Presenting.html#suggestion-a-picture-is-worth-1000-words.",
+    "title": "Presenting @ DataFest",
+    "section": "(suggestion) A PICTURE IS WORTH 1000 words.",
+    "text": "(suggestion) A PICTURE IS WORTH 1000 words.\n\nUse charts, graphs, and/or infographics to make complex data more understandable.\nVisuals should be clear, labeled correctly, and uncomplicated.\nSlides from the 2017 winner (Best Insight, the top prize at the time)"
+  },
+  {
+    "objectID": "Presenting.html#winner",
+    "href": "Presenting.html#winner",
+    "title": "Presenting @ DataFest",
+    "section": "2017 Winner",
+    "text": "2017 Winner"
+  },
+  {
+    "objectID": "Presenting.html#suggestion-whats-your-story",
+    "href": "Presenting.html#suggestion-whats-your-story",
+    "title": "Presenting @ DataFest",
+    "section": "(Suggestion) What’s Your Story?",
+    "text": "(Suggestion) What’s Your Story?\n\n\n\nIntroduce the key elements or variables of your analysis\nDiscuss your solution with a logical flow\n\nfrom your solution/idea\nto results and impact"
+  },
+  {
+    "objectID": "Presenting.html#whats-your-story-contd",
+    "href": "Presenting.html#whats-your-story-contd",
+    "title": "Presenting @ DataFest",
+    "section": "What’s Your Story? (Cont’d)",
+    "text": "What’s Your Story? (Cont’d)\n\n\n\n\n\n\nYour “story” should be interesting to the stakeholder.\nYour findings should be relatable and understandable."
+  },
+  {
+    "objectID": "Presenting.html#finish-well",
+    "href": "Presenting.html#finish-well",
+    "title": "Presenting @ DataFest",
+    "section": "5. Finish Well!",
+    "text": "5. Finish Well!\n\nSummarize/Emphasize the most important results of your analysis\nDo make it clear why these findings matter!\nExplain how your findings fit the needs of the data provider."
+  },
+  {
+    "objectID": "Presenting.html#finish-well---2017-winner",
+    "href": "Presenting.html#finish-well---2017-winner",
+    "title": "Presenting @ DataFest",
+    "section": "Finish Well - 2017 Winner",
+    "text": "Finish Well - 2017 Winner"
+  },
+  {
+    "objectID": "Presenting.html#be-prepared-for-questions",
+    "href": "Presenting.html#be-prepared-for-questions",
+    "title": "Presenting @ DataFest",
+    "section": "6. Be Prepared for Questions",
+    "text": "6. Be Prepared for Questions\n\nTechnical questions from stats & data science experts\n\nGeneral questions from the non-stats & data science experts\n\nAsk yourselves, ask your friends, ask the mentors on the floor"
+  },
+  {
+    "objectID": "Presenting.html#try-to-practice-your-presentation",
+    "href": "Presenting.html#try-to-practice-your-presentation",
+    "title": "Presenting @ DataFest",
+    "section": "7. Try to Practice your Presentation",
+    "text": "7. Try to Practice your Presentation\n\nClarity\nTiming\n& build confidence in your delivery. (2/9/2024)"
+  },
+  {
+    "objectID": "Presenting.html#in-the-end-in-whatever-you-do-have-fun-doing-it.",
+    "href": "Presenting.html#in-the-end-in-whatever-you-do-have-fun-doing-it.",
+    "title": "Presenting @ DataFest",
+    "section": "8. In the end, in whatever you do, have fun doing it.",
+    "text": "8. In the end, in whatever you do, have fun doing it.\n\nYou will only be this young, this strong, in this place and in this time once.\n\nIf you are not enjoying your time, then you are truly wasting your time."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Fest 2024",
+    "section": "",
+    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
+  },
+  {
+    "objectID": "effectSize.html",
+    "href": "effectSize.html",
+    "title": "Effect Size",
+    "section": "",
+    "text": "library(ggplot2)\nlibrary(dplyr)\n\n\ndata &lt;- read.csv(\"https://raw.githubusercontent.com/lewv/S24STATS101A/main/data/EffectData.csv\")\ndata$Manager &lt;- factor(data$Manager, levels = paste0(\"Man.\", 1:25))\ndata$ProductID &lt;- factor(data$ProductID, levels = c(\"Prod.1\",\"Prod.2\",\"Prod.3\",\"Prod.4\",\"Prod.5\",\"Prod.6\",\"Prod.7\",\"Prod.8\",\"Prod.9\",\"Prod.10\"))\nprint(data[1:12,])\n\n   Manager ProductID Sold\n1    Man.1    Prod.1   29\n2    Man.1    Prod.1   35\n3    Man.1    Prod.1   47\n4    Man.1    Prod.1   42\n5    Man.1    Prod.1   32\n6    Man.1    Prod.1   32\n7    Man.2    Prod.1   72\n8    Man.2    Prod.1   64\n9    Man.2    Prod.1   65\n10   Man.2    Prod.1   76\n11   Man.2    Prod.1   69\n12   Man.2    Prod.1   73\n\n\n\ntapply(data$Sold, data$Manager, sum) |&gt; sort()\n\n Man.6 Man.19 Man.11  Man.7  Man.5 Man.13 Man.18 Man.17  Man.1 Man.25  Man.3 \n  8820   9000   9102   9210   9840  10746  10830  11796  11910  12546  12858 \nMan.22 Man.24 Man.12 Man.15 Man.20 Man.10  Man.9  Man.8 Man.16  Man.4  Man.2 \n 15054  15168  15642  16092  17046  18078  19434  20358  20400  20874  24402 \nMan.23 Man.21 Man.14 \n 25260  26430  26436 \n\n\n\n# in dplyr\ndata %&gt;%\n  group_by(Manager) %&gt;%\n  summarize(TotalSold = sum(Sold)) %&gt;%\n  arrange(desc(TotalSold))\n\n# A tibble: 25 × 2\n   Manager TotalSold\n   &lt;fct&gt;       &lt;int&gt;\n 1 Man.14      26436\n 2 Man.21      26430\n 3 Man.23      25260\n 4 Man.2       24402\n 5 Man.4       20874\n 6 Man.16      20400\n 7 Man.8       20358\n 8 Man.9       19434\n 9 Man.10      18078\n10 Man.20      17046\n# ℹ 15 more rows\n\n\n\nggplot(data, aes(x = Manager)) +\n  geom_bar(aes(weight = Sold), fill = \"blue\") +\n  labs(x = \"Manager\", y = \"Units Sold\", title = \"Total Sold by Manager\") + theme(axis.text.x = element_text(angle = 45, hjust = 1))\n\n\n\n\n\nggplot(data, aes(x = Manager, y = Sold, fill = ProductID)) +\n  geom_bar(stat = \"identity\") +\n  labs(x = \"Manager\", y = \"Units Sold\", title = \"Total Sold by Product within Manager\") + theme(axis.text.x = element_text(angle = 45, hjust = 1))\n\n\n\n\n\n# Compute proportion of product sold over total sold within Manager\ndata2 &lt;- data %&gt;% \n  group_by(Manager) %&gt;% \n  mutate(total_sold = sum(Sold), \n         proportion = Sold / total_sold)\n\n\n# Use mutated data to create 100% stacked bar plot\nggplot(data2, aes(x = Manager, y = proportion, fill = ProductID)) +\n  geom_bar(stat = \"identity\", position = \"fill\") +\n  scale_y_continuous(labels = scales::percent) +\n  labs(x = \"Manager\", y = \"Product Proportion\", fill = \"Product\") +\n  ggtitle(\"100% Stacked Bar Plot\") + \n  theme(axis.text.x = element_text(angle = 45, hjust = 1))\n\n\n\n\n\n# use geom_tile for a heatmap with non-numeric variables on X and Y\nlibrary(RColorBrewer)\nmy_palette &lt;- brewer.pal(n = 11, name = \"Spectral\")\n\nggplot(data = data, aes(x = ProductID, y = Manager, fill = Sold)) +\n  geom_tile() +\n  scale_fill_gradientn(colors = my_palette)  +\n  labs(title = \"Heatmap of Products Sold by Manager\", \n       x = \"Product ID\", y = \"Manager\", fill = \"Number Sold\") +\n  theme_minimal()\n\n\n\n\n\n# use geom_contour - note modification of data\nggplot(data = data, aes(x = as.numeric(ProductID), y = as.numeric(Manager), z = Sold)) +\n  geom_contour_filled() +\n  scale_fill_brewer(palette = \"Spectral\", guide = guide_legend(reverse = TRUE)) +\n  labs(title = \"Contour Map of Number of Products Sold by Manager\", \n       x = \"Product ID\", y = \"Manager\", fill = \"Number Sold\") +\n  theme_minimal()\n\n\n\n\n\n# tiled heatmap suggests a two-way ANOVA\n# also check interaction (probably not sig.)\nresult &lt;- aov(Sold ~ Manager + ProductID + Manager:ProductID, data = data)\nsummary(result)\n\n                    Df  Sum Sq Mean Sq  F value Pr(&gt;F)    \nManager             24 2215305   92304 3696.664 &lt;2e-16 ***\nProductID            9   92982   10331  413.755 &lt;2e-16 ***\nManager:ProductID  216    2378      11    0.441      1    \nResiduals         8750  218484      25                    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\n# rerun without interaction\nresult2 &lt;- aov(Sold ~ Manager + ProductID, data = data)\n\n\nsummary(result2)\n\n              Df  Sum Sq Mean Sq F value Pr(&gt;F)    \nManager       24 2215305   92304  3747.1 &lt;2e-16 ***\nProductID      9   92982   10331   419.4 &lt;2e-16 ***\nResiduals   8966  220862      25                   \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\n# check comparisons\n# too many combinations choose(25, 2) = 300\nTukeyResult &lt;- TukeyHSD(result2)\ndim(TukeyResult$Manager)\n\n[1] 300   4\n\nhead(TukeyResult$Manager)\n\n                 diff       lwr       upr        p adj\nMan.2-Man.1 34.700000 33.346397 36.053603 0.000000e+00\nMan.3-Man.1  2.633333  1.279731  3.986936 3.440545e-10\nMan.4-Man.1 24.900000 23.546397 26.253603 0.000000e+00\nMan.5-Man.1 -5.750000 -7.103603 -4.396397 0.000000e+00\nMan.6-Man.1 -8.583333 -9.936936 -7.229731 0.000000e+00\nMan.7-Man.1 -7.500000 -8.853603 -6.146397 0.000000e+00\n\n\n\n# Recall\ndata %&gt;%\n  group_by(Manager) %&gt;%\n  summarize(TotalSold = sum(Sold)) %&gt;%\n  arrange(desc(TotalSold)) %&gt;%\n  slice_head(n = 5)\n\n# A tibble: 5 × 2\n  Manager TotalSold\n  &lt;fct&gt;       &lt;int&gt;\n1 Man.14      26436\n2 Man.21      26430\n3 Man.23      25260\n4 Man.2       24402\n5 Man.4       20874\n\n\n\n# we only want to understand the 5 managers at the top of sales\n# Check specific comparisons\nTukeyResult$Manager[row.names(TukeyResult$Manager) %in% \nc(\"Man.21-Man.14\",\n\"Man.23-Man.14\",\n\"Man.23-Man.21\",\n\"Man.2-Man.14\",\n\"Man.21-Man.2\",\n\"Man.23-Man.2\",\n\"Man.4-Man.2\"),]\n\n                     diff        lwr       upr        p adj\nMan.4-Man.2   -9.80000000 -11.153603 -8.446397 0.000000e+00\nMan.21-Man.2   5.63333333   4.279731  6.986936 0.000000e+00\nMan.23-Man.2   2.38333333   1.029731  3.736936 3.691728e-08\nMan.21-Man.14 -0.01666667  -1.370269  1.336936 1.000000e+00\nMan.23-Man.14 -3.26666667  -4.620269 -1.913064 0.000000e+00\nMan.23-Man.21 -3.25000000  -4.603603 -1.896397 0.000000e+00\n\n\nLooks like there are two managers tied at the top (14 + 21) followed by 23 and then 2."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
