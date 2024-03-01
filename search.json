@@ -21,11 +21,11 @@
     "text": "2. Tailor your presentation.\n\nExample. Edmunds.com DataFest 2015.\n\nTwo teams vying for the top prize (Best Insight).\n\nTeam One: a sophisticated analysis, machine learning techniques involving consumer choice modeling. Their team leader had wheeled in a modified server (this is 2015) with 32GB of memory to compete at DataFest."
   },
   {
-    "objectID": "Presenting.html#tailor-your-presentation-accordingly.-contd",
-    "href": "Presenting.html#tailor-your-presentation-accordingly.-contd",
+    "objectID": "Presenting.html#tailor-your-presentation.-contd",
+    "href": "Presenting.html#tailor-your-presentation.-contd",
     "title": "Presenting @ DataFest",
-    "section": "2. Tailor your presentation accordingly. (cont’d)",
-    "text": "2. Tailor your presentation accordingly. (cont’d)\n\nTeam Two: a basic analysis, their presentation slide just had a few numbers from tables, a test, and pretty graphics.\nWho do you think won?\n\nTeam Two.\n\nThe Team One cried foul and said they were “ripped off”.\nThe judging panel responded that the data provider “didn’t understand Team One’s analysis and as result, could not use the recommendation”"
+    "section": "2. Tailor your presentation. (cont’d)",
+    "text": "2. Tailor your presentation. (cont’d)\n\nTeam Two: a basic analysis, their presentation slide just had a few numbers from tables, a test, and pretty graphics.\nWho do you think won?\n\nTeam Two.\n\nThe Team One cried foul and said they were “ripped off”.\nThe judging panel responded that the data provider “didn’t understand Team One’s analysis and as result, could not use the recommendation”"
   },
   {
     "objectID": "Presenting.html#kiss",
@@ -112,11 +112,11 @@
     "text": "8. In the end, in whatever you do, have fun doing it.\n\nYou will only be this young, this strong, in this place and in this time once.\n\nIf you are not enjoying your time, then you are truly wasting your time."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DataFest 2024 Workshop",
-    "section": "",
-    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
+    "objectID": "ForLACSD.html#todays-goals",
+    "href": "ForLACSD.html#todays-goals",
+    "title": "LACSD presentation",
+    "section": "Today’s goals",
+    "text": "Today’s goals\nTo help you answer - What is/Why the Normal Distribution? - What is an outlier? (Why do you care?) - Why Dixon? Why Rosner? - What do you when data is non-normal? - What is alpha ?"
   },
   {
     "objectID": "EffectSize.html",
@@ -124,20 +124,6 @@
     "title": "Effect Size",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn case the contour map does not render:\n\n\n\ncontour\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nLooks like there are two managers tied at the top (14 + 21) followed by 23 and then 2."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "Presenting.html#tailor-your-presentation.-contd",
-    "href": "Presenting.html#tailor-your-presentation.-contd",
-    "title": "Presenting @ DataFest",
-    "section": "2. Tailor your presentation. (cont’d)",
-    "text": "2. Tailor your presentation. (cont’d)\n\nTeam Two: a basic analysis, their presentation slide just had a few numbers from tables, a test, and pretty graphics.\nWho do you think won?\n\nTeam Two.\n\nThe Team One cried foul and said they were “ripped off”.\nThe judging panel responded that the data provider “didn’t understand Team One’s analysis and as result, could not use the recommendation”"
   },
   {
     "objectID": "Week8.html",
@@ -231,10 +217,17 @@
     "text": "heat map\n\nmy_palette &lt;- brewer.pal(n = 11, name = \"Spectral\")\n\n train2 %&gt;%\n      count(AO, period) %&gt;%\n      ggplot(mapping = aes(x = AO, y = period)) +\n        geom_tile(mapping = aes(fill = n), alpha = 0.75) +\n        scale_fill_gradientn(colors = my_palette)  +\n        labs(x = \"Animal Outcome\", y = \"Time Period\", title = \"Animal Outcomes by time period\") +\n        theme(axis.text.x = element_text(angle = 90, hjust = 1))"
   },
   {
-    "objectID": "ForLACSD.html#todays-goals",
-    "href": "ForLACSD.html#todays-goals",
-    "title": "ForLACSD",
-    "section": "Today’s goals",
-    "text": "Today’s goals\nTo help you answer - What is/Why the Normal Distribution? - What is an outlier? (Why do you care?) - Why Dixon? Why Rosner? - What do you when data is non-normal? - What is alpha ?"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DataFest 2024 Workshop",
+    "section": "",
+    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
