@@ -229,5 +229,12 @@
     "title": "Exploratory Data Analysis",
     "section": "heat map",
     "text": "heat map\n\nmy_palette &lt;- brewer.pal(n = 11, name = \"Spectral\")\n\n train2 %&gt;%\n      count(AO, period) %&gt;%\n      ggplot(mapping = aes(x = AO, y = period)) +\n        geom_tile(mapping = aes(fill = n), alpha = 0.75) +\n        scale_fill_gradientn(colors = my_palette)  +\n        labs(x = \"Animal Outcome\", y = \"Time Period\", title = \"Animal Outcomes by time period\") +\n        theme(axis.text.x = element_text(angle = 90, hjust = 1))"
+  },
+  {
+    "objectID": "ForLACSD.html#todays-goals",
+    "href": "ForLACSD.html#todays-goals",
+    "title": "ForLACSD",
+    "section": "Today’s goals",
+    "text": "Today’s goals\nTo help you answer - What is/Why the Normal Distribution? - What is an outlier? (Why do you care?) - Why Dixon? Why Rosner? - What do you when data is non-normal? - What is alpha ?"
   }
 ]
