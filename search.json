@@ -116,7 +116,91 @@
     "href": "ForLACSD.html#todays-goals",
     "title": "LACSD presentation",
     "section": "Today’s goals",
-    "text": "Today’s goals\nTo help you answer - What is/Why the Normal Distribution?\n- What is an outlier? (Why do you care?)\n- Why Dixon? Why Rosner?\n- What do you when data is non-normal?\n- What is alpha \\(\\alpha\\)?"
+    "text": "Today’s goals\nTo help you answer:\n\nWhat is & Why the Normal Distribution?\n\nWhat is an outlier? (Why should you care?)\n\nWhy Dixon? Why Rosner?\n\nWhat is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? Why \\(\\alpha\\) = 0.01?\n\nWhat do you do when data is non-normal?"
+  },
+  {
+    "objectID": "ForLACSD.html#what-is-why-the-normal-distribution",
+    "href": "ForLACSD.html#what-is-why-the-normal-distribution",
+    "title": "LACSD presentation",
+    "section": "What is & Why the normal distribution?",
+    "text": "What is & Why the normal distribution?\nGalton Board\n\n“Normal” because the people who worked with data at that time thought all distributions had this bell shape.\n\nThe normal arises as the result of many “binary” (0,1) decisions"
+  },
+  {
+    "objectID": "ForLACSD.html#what-is-why-the-normal-distribution-contd",
+    "href": "ForLACSD.html#what-is-why-the-normal-distribution-contd",
+    "title": "LACSD presentation",
+    "section": "What is & Why the normal distribution? (cont’d)",
+    "text": "What is & Why the normal distribution? (cont’d)\n\nA distribution is a pattern\n\nSo when we say something is “normally distributed,” we mean:\n\nMost values are average or close to average.\n\nVery high or very low values are rare.\n\nThe pattern of values forms a bell shape when graphed."
+  },
+  {
+    "objectID": "ForLACSD.html#what-is-an-outlier-why-should-you-care",
+    "href": "ForLACSD.html#what-is-an-outlier-why-should-you-care",
+    "title": "LACSD presentation",
+    "section": "What is an outlier & Why should you care?",
+    "text": "What is an outlier & Why should you care?\n\nIn Statistics, an outlier is an observation (measurement) that is significantly different from other observations (measurements) in a dataset.\n\nOutliers are one of those rare higher or lower data points.\n\nOutliers may indicate variability, error in measurement, or something new.\n\nOutliers can unduly influence the results of statistical analyses which can lead to misleading interpretations and bad decisions."
+  },
+  {
+    "objectID": "ForLACSD.html#why-dixon",
+    "href": "ForLACSD.html#why-dixon",
+    "title": "LACSD presentation",
+    "section": "Why Dixon?",
+    "text": "Why Dixon?\n\nDixon’s Q test is used to identify an outlier.\n\nDixon’s test assumes the data originates from a normal distribution.\n\nThis test can only identify a single outlier in a data set.\n\nFor small samples (size 3 to about 30), this is the best performing test."
+  },
+  {
+    "objectID": "ForLACSD.html#why-rosner",
+    "href": "ForLACSD.html#why-rosner",
+    "title": "LACSD presentation",
+    "section": "Why Rosner?",
+    "text": "Why Rosner?\n\nRosner ESD test can identify more than one outlier in set of measurements.\n\nRosner also assumes the data originates from a normal distribution.\n\nRosner’s test can detect outliers even when tests like Dixon (single outlier) cannot because multiple outliers could mask each other.\n\nThis test has been shown to be very accurate for n ≥ 25."
+  },
+  {
+    "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05",
+    "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05",
+    "title": "LACSD presentation",
+    "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?",
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?\n\nLet’s play a game. How many candies are in this jar?\n\nBut before we start, let’s agree on a rule:\n\nIf someone guesses within 5 candies of the actual number we agree that they are the best at estimating the volume of oddly shaped objects (because it is really unlikely they could guess that close by luck alone).\n\n\nThis is similar to setting alpha \\(\\alpha\\) in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.\n\nWe typically use an alpha level of 0.05 (it’s OK to think 5%)"
+  },
+  {
+    "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd",
+    "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd",
+    "title": "LACSD presentation",
+    "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)",
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\nAny discussion of alpha should also include a discussion of the P-value\n\nSuppose you make your guess, and it turns out you’re exactly 3 candies away from the correct number.\n\nWe will call 0.03 the P-value and it is the realization of the guess.\n\nGiven the agreed upon rule (within 5 candies), your guess counts as a win."
+  },
+  {
+    "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd-1",
+    "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd-1",
+    "title": "LACSD presentation",
+    "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)",
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\n\nBut how unusual is your guess?\n\nIf the jar was small, being 3 candies off might not be very unusual.\n\nBut if the jar was huge, guessing within 3 candies is quite unusual.\n\n\nCan you see why we might desire more measurements?"
+  },
+  {
+    "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
+    "href": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
+    "title": "LACSD presentation",
+    "section": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?",
+    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?\n\nIn some disciplines (e.g., social sciences), researchers are willing to set alpha to 0.10\n\nIn most disciplines, researchers set it to 0.05\n\nIn still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher."
+  },
+  {
+    "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01-contd",
+    "href": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01-contd",
+    "title": "LACSD presentation",
+    "section": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01? (cont’d)",
+    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01? (cont’d)\n\nWhy tougher?\n\nWe want to be absolutely certain before declaring a guess as a “win”\n\nReduces the chance of falsely declaring a “win” for what might be a lucky guess\n\n\nIn practice, smaller alpha is used in\n\nhigher stakes situations or\na desire for stronger evidence"
+  },
+  {
+    "objectID": "ForLACSD.html#choosing-an-alpha-of-0.01-over-0.05-short-version",
+    "href": "ForLACSD.html#choosing-an-alpha-of-0.01-over-0.05-short-version",
+    "title": "LACSD presentation",
+    "section": "Choosing an alpha of 0.01 over 0.05 (short version)",
+    "text": "Choosing an alpha of 0.01 over 0.05 (short version)\n\nThis is like tightening the rules of a game to make sure only the most accurate guesses win.\n\nIt’s like saying, “I want to be really certain before I declare something significant”\n\n(an outlier in your case)\n\n\nThis is a reasonable approach when the stakes are high or when we desire to minimize the chance of being wrong."
+  },
+  {
+    "objectID": "ForLACSD.html#what-can-you-do-when-data-is-non-normal",
+    "href": "ForLACSD.html#what-can-you-do-when-data-is-non-normal",
+    "title": "LACSD presentation",
+    "section": "What can you do when data is non-normal?",
+    "text": "What can you do when data is non-normal?\n\nFirst, we suggest using graphical methods to check for outliers\n\nThen test for normality (Shapiro-Wilk, used for samples from size 3 to 5000)\n\nIf not normal, the data could be transformed (e.g., log, square root, exponential) to be normal\n\nAlternate solution - move to a non-parametric method (e.g. 75th percentile + 1.5xIQR)"
   },
   {
     "objectID": "EffectSize.html",
