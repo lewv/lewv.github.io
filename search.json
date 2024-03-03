@@ -203,11 +203,11 @@
     "text": "What can you do when data is non-normal?\n\nFirst, we suggest using graphical methods to check for outliers\n\nThen test for normality (Shapiro-Wilk, used for samples from size 3 to 5000)\n\nIf not normal, the data could be transformed (e.g., log, square root, exponential) to be normal\n\nAlternate solution - move to a non-parametric method (e.g. 75th percentile + 1.5xIQR)"
   },
   {
-    "objectID": "EffectSize.html",
-    "href": "EffectSize.html",
-    "title": "Effect Size",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
     "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn case the contour map does not render:\n\n\n\ncontour\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nLooks like there are two managers tied at the top (14 + 21) followed by 23 and then 2."
+    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
   },
   {
     "objectID": "Week8.html",
@@ -301,11 +301,18 @@
     "text": "heat map\n\nmy_palette &lt;- brewer.pal(n = 11, name = \"Spectral\")\n\n train2 %&gt;%\n      count(AO, period) %&gt;%\n      ggplot(mapping = aes(x = AO, y = period)) +\n        geom_tile(mapping = aes(fill = n), alpha = 0.75) +\n        scale_fill_gradientn(colors = my_palette)  +\n        labs(x = \"Animal Outcome\", y = \"Time Period\", title = \"Animal Outcomes by time period\") +\n        theme(axis.text.x = element_text(angle = 90, hjust = 1))"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DataFest 2024 Workshop",
+    "objectID": "EffectSize.html",
+    "href": "EffectSize.html",
+    "title": "Effect Size",
     "section": "",
-    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn case the contour map does not render:\n\n\n\ncontour\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nLooks like there are two managers tied at the top (14 + 21) followed by 23 and then 2."
+  },
+  {
+    "objectID": "Normals.html",
+    "href": "Normals.html",
+    "title": "Normal Distributions",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "about.html",
