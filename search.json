@@ -158,28 +158,21 @@
     "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05",
     "title": "LACSD presentation",
     "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?",
-    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?\n\nLet’s play a game. How many candies are in this jar?\n\nBut before we start, let’s agree on a rule:\n\nIf someone guesses within 5 candies of the actual number we agree that they are the best at estimating the volume of oddly shaped objects (because it is really unlikely they could guess that close by luck alone).\n\n\nThis is similar to setting alpha \\(\\alpha\\) in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.\n\nWe typically use an alpha level of 0.05 (it’s OK to think 5%)"
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?\n\nLet’s play a game.\nSuppose I am trying to figure out if any of you have superpowers.\nThere are two kinds of candies in this jar.\nIf you can guess the color correctly in order for 7 or more (either 7 or all 8) of the first 8 I pull out, I declare that you have superpowers.\n\nWhy 7 or all 8? Why not another value?\nThis is similar to setting alpha \\(\\alpha\\) in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.\n\nWe typically use an alpha level of 0.05 (it’s OK to think 5%)"
   },
   {
     "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd",
     "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd",
     "title": "LACSD presentation",
     "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)",
-    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\nAny discussion of alpha should also include a discussion of the P-value\n\nSuppose you make your guess, and it turns out you’re exactly 3 candies away from the correct number.\n\nWe will call 0.03 the P-value and it is the realization of the guess.\n\nGiven the agreed upon rule (within 5 candies), your guess counts as a win."
-  },
-  {
-    "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd-1",
-    "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd-1",
-    "title": "LACSD presentation",
-    "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)",
-    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\n\nBut how unusual is your guess?\n\nIf the jar was small, being 3 candies off might not be very unusual.\n\nBut if the jar was huge, guessing within 3 candies is quite unusual.\n\n\nCan you see why we might desire more measurements?"
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\nAny discussion of alpha should also include a discussion of the P-value\n\nSuppose you make your guess, and it turns out you guessed 7 out of the 8 candies correctly. Mathematically, that is a probably of 0.035 or 3.5%\nWe will call 0.035 the P-value and it is the realization of the guess.\n\nGiven the agreed upon rule (7 or 8), I declare that you have superpowers."
   },
   {
     "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
     "href": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
     "title": "LACSD presentation",
     "section": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?",
-    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?\n\nIn some disciplines (e.g., social sciences), researchers are willing to set alpha to 0.10\n\nIn most disciplines, researchers set it to 0.05\n\nIn still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher."
+    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?\n\nIn some disciplines (e.g., social sciences), researchers are willing to set alpha to 0.10\n\nIn most disciplines, researchers set it to 0.05\n\nIn still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher.\nIf I had said “you need to get 8/8 correct” that would be like a p-value of 0.004"
   },
   {
     "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01-contd",
