@@ -415,13 +415,12 @@ March 7 2024
 <section id="what-is-alpha-alpha-why-alpha-0.05" class="slide level2">
 <h2>What is alpha <span class="math inline">\(\alpha\)</span>? Why <span class="math inline">\(\alpha\)</span>= 0.05?</h2>
 <ul>
-<li class="fragment">Let’s play a game. How many candies are in this jar?<br>
+<li class="fragment">Let’s play a game.</li>
+<li class="fragment">Suppose I am trying to figure out if any of you have superpowers.</li>
+<li class="fragment">There are two kinds of candies in this jar.</li>
+<li class="fragment">If you can guess the color correctly in order for 7 or more (either 7 or all 8) of the first 8 I pull out, I declare that you have superpowers.<br>
 </li>
-<li class="fragment">But before we start, let’s agree on a rule:
-<ul>
-<li class="fragment">If someone guesses within 5 candies of the actual number we agree that they are the best at estimating the volume of oddly shaped objects (because it is really unlikely they could guess that close by luck alone).<br>
-</li>
-</ul></li>
+<li class="fragment">Why 7 or all 8? Why not another value?</li>
 <li class="fragment">This is similar to setting alpha <span class="math inline">\(\alpha\)</span> in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.<br>
 </li>
 <li class="fragment">We typically use an alpha level of 0.05 (it’s OK to think 5%)</li>
@@ -431,24 +430,10 @@ March 7 2024
 <h2>What is alpha <span class="math inline">\(\alpha\)</span>? Why <span class="math inline">\(\alpha\)</span>= 0.05? (cont’d)</h2>
 <p>Any discussion of alpha should also include a discussion of the P-value</p>
 <ul>
-<li class="fragment">Suppose you make your guess, and it turns out you’re exactly 3 candies away from the correct number.<br>
+<li class="fragment">Suppose you make your guess, and it turns out you guessed 7 out of the 8 candies correctly. Mathematically, that is a probably of 0.035 or 3.5%</li>
+<li class="fragment">We will call 0.035 the P-value and it is the realization of the guess.<br>
 </li>
-<li class="fragment">We will call 0.03 the P-value and it is the realization of the guess.<br>
-</li>
-<li class="fragment">Given the agreed upon rule (within 5 candies), your guess counts as a win.</li>
-</ul>
-</section>
-<section id="what-is-alpha-alpha-why-alpha-0.05-contd-1" class="slide level2">
-<h2>What is alpha <span class="math inline">\(\alpha\)</span>? Why <span class="math inline">\(\alpha\)</span>= 0.05? (cont’d)</h2>
-<ul>
-<li class="fragment">But how unusual is your guess?
-<ul>
-<li class="fragment">If the jar was small, being 3 candies off might not be very unusual.<br>
-</li>
-<li class="fragment">But if the jar was huge, guessing within 3 candies is quite unusual.<br>
-</li>
-</ul></li>
-<li class="fragment">Can you see why we might desire more measurements?</li>
+<li class="fragment">Given the agreed upon rule (7 or 8), I declare that you have superpowers.</li>
 </ul>
 </section>
 <section id="why-alpha-0.05-why-not-alpha-0.01" class="slide level2">
@@ -459,6 +444,7 @@ March 7 2024
 <li class="fragment">In most disciplines, researchers set it to 0.05<br>
 </li>
 <li class="fragment">In still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher.</li>
+<li class="fragment">If I had said “you need to get 8/8 correct” that would be like a p-value of 0.004</li>
 </ul>
 </section>
 <section id="why-alpha-0.05-why-not-alpha-0.01-contd" class="slide level2">
