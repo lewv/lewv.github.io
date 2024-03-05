@@ -219,9 +219,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
+    "title": "Recent Presentations",
     "section": "",
-    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
+    "text": "Presentation for LACSD https://lewv.github.io/ForLACSD.html#/title-slide.\nNormal Lesson https://lewv.github.io/Normals.html.\nDataFest Presentation"
   },
   {
     "objectID": "Week8.html",
@@ -333,6 +333,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/"
   }
 ]
