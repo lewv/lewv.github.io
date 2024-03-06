@@ -119,24 +119,24 @@
     "text": "Today’s goals\nTo help you answer:\n\nWhat is & Why the Normal Distribution?\n\nWhat is an outlier? (Why should you care?)\n\nWhy Dixon? Why Rosner?\n\nWhat is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? Why \\(\\alpha\\) = 0.01?\n\nWhat do you do when data is non-normal?"
   },
   {
-    "objectID": "ForLACSD.html#what-is-why-the-normal-distribution",
-    "href": "ForLACSD.html#what-is-why-the-normal-distribution",
+    "objectID": "ForLACSD.html#section",
+    "href": "ForLACSD.html#section",
     "title": "LACSD presentation",
-    "section": "What is & Why the normal distribution?",
-    "text": "What is & Why the normal distribution?\nGalton Board\n(https://www.mathsisfun.com/data/quincunx.html)\n\n“Normal” because the people who worked with data at that time thought all distributions had this bell shape. Many do, but not all.\nStill, the importance of the normal arises from the fact that many important distributions (e.g., errors in measurement) are normal\nThe Galton board is a demonstration of how the normal arises as the result of many “binary” (0,1) decisions"
+    "section": "",
+    "text": "What is & Why the normal distribution?\nGalton Board\n(https://www.mathsisfun.com/data/quincunx.html)\n\n“Normal” because the people who worked with data at that time thought all distributions had this bell shape. Many do, but not all.\nThe importance of the normal arises from the fact that many important distributions (e.g., errors in measurement) are normal\nThe Galton board is a demonstration of how the normal arises as the result of many “binary” (0,1) decisions"
   },
   {
-    "objectID": "ForLACSD.html#what-is-why-the-normal-distribution-contd",
-    "href": "ForLACSD.html#what-is-why-the-normal-distribution-contd",
+    "objectID": "ForLACSD.html#section-1",
+    "href": "ForLACSD.html#section-1",
     "title": "LACSD presentation",
-    "section": "What is & Why the normal distribution? (cont’d)",
+    "section": "",
     "text": "What is & Why the normal distribution? (cont’d)\n\nA distribution is a pattern\n\nSo when we say something is “normally distributed,” we mean:\n\nMost values are average or close to average.\n\nVery high or very low values are rare.\n\nThe pattern of values forms a bell shape when graphed."
   },
   {
-    "objectID": "ForLACSD.html#what-is-an-outlier-why-should-you-care",
-    "href": "ForLACSD.html#what-is-an-outlier-why-should-you-care",
+    "objectID": "ForLACSD.html#section-2",
+    "href": "ForLACSD.html#section-2",
     "title": "LACSD presentation",
-    "section": "What is an outlier & Why should you care?",
+    "section": "",
     "text": "What is an outlier & Why should you care?\n\nIn Statistics, an outlier is an observation (measurement) that is significantly different from other observations (measurements) in a dataset.\n\nOutliers are one of those rare higher or lower data points.\n\nOutliers may indicate natural variability, error in measurement, or something new.\n\nOutliers are not “bad” or “evil” but…\nOutliers can unduly influence the results of statistical analyses which may lead to misleading interpretations and bad decisions."
   },
   {
@@ -161,32 +161,32 @@
     "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?\n\nLet’s play a game. I will lay down the rules/features of this game.\nSuppose I am trying to figure out if any of you have superpowers.\nThere are two kinds of candies in this jar.\nIf you can guess the color correctly in order for 7 or more (either 7 or all 8) of the first 8 I pull out, I declare that you have superpowers."
   },
   {
-    "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd",
-    "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd",
+    "objectID": "ForLACSD.html#section-3",
+    "href": "ForLACSD.html#section-3",
     "title": "LACSD presentation",
-    "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)",
+    "section": "",
     "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\n\nWhy 7 or all 8? Why not another value, like 5?\nDemanding 7 or all 8 is similar to setting alpha \\(\\alpha\\) in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.\n\nWe typically use an Alpha level of 0.05 (it’s OK to think 5%)"
   },
   {
-    "objectID": "ForLACSD.html#illustration-1",
-    "href": "ForLACSD.html#illustration-1",
+    "objectID": "ForLACSD.html#section-4",
+    "href": "ForLACSD.html#section-4",
     "title": "LACSD presentation",
-    "section": "Illustration 1",
-    "text": "Illustration 1"
+    "section": "",
+    "text": "Normal Distribution with Alpha = 0.05 Shaded"
   },
   {
-    "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd-1",
-    "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05-contd-1",
+    "objectID": "ForLACSD.html#section-5",
+    "href": "ForLACSD.html#section-5",
     "title": "LACSD presentation",
-    "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)",
+    "section": "",
     "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\nAny discussion of alpha should also include a discussion of the P-value\n\nSuppose you make your guess, and it turns out you guessed 7 out of the 8 candies correctly.\n\nMathematically, that is a probability of 0.035 or 3.5%\nWe will label the 0.035 as a “P-value” and it is the realization of the guess.\n\nGiven the agreed upon rule (7 or 8), I declare that you have superpowers."
   },
   {
-    "objectID": "ForLACSD.html#illustration-2",
-    "href": "ForLACSD.html#illustration-2",
+    "objectID": "ForLACSD.html#section-6",
+    "href": "ForLACSD.html#section-6",
     "title": "LACSD presentation",
-    "section": "Illustration 2",
-    "text": "Illustration 2"
+    "section": "",
+    "text": "Normal Distribution with Alpha = 0.05 Shaded and p-value of 0.035 marked"
   },
   {
     "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
@@ -196,25 +196,25 @@
     "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?\n\nIn some disciplines (e.g., social sciences), researchers are willing to set alpha to 0.10\n\nIn most disciplines, researchers set it to 0.05\n\nIn still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher.\nIf I had said “you need to get 8/8 correct” that would be setting alpha to 0.004"
   },
   {
-    "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01-contd",
-    "href": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01-contd",
+    "objectID": "ForLACSD.html#section-7",
+    "href": "ForLACSD.html#section-7",
     "title": "LACSD presentation",
-    "section": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01? (cont’d)",
-    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01? (cont’d)\n\nWhy tougher?\n\nWe want to be absolutely certain before declaring someone has evidence of superpower\nReduces the chance of falsely declaring “superpower” for what might only be a lucky guess\n\n\nIn practice, smaller alpha is used in\n\nhigher stakes situations or\na desire for stronger evidence"
+    "section": "",
+    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01? (cont’d)\n\nWhy tougher?\n\nWe want to be absolutely certain before declaring someone has evidence of superpower\nReduces the chance of falsely declaring “superpower” for what might only be a lucky guess\n\n\nIn practice, smaller alpha is used in\n\nhigh stakes situations (e.g., designing airplane wings) or\na desire for stronger evidence"
   },
   {
-    "objectID": "ForLACSD.html#choosing-an-alpha-of-0.01-over-0.05-short-version",
-    "href": "ForLACSD.html#choosing-an-alpha-of-0.01-over-0.05-short-version",
+    "objectID": "ForLACSD.html#section-8",
+    "href": "ForLACSD.html#section-8",
     "title": "LACSD presentation",
-    "section": "Choosing an alpha of 0.01 over 0.05 (short version)",
-    "text": "Choosing an alpha of 0.01 over 0.05 (short version)\n\nThis is like tightening the rules of evidence to make sure only the most undeniably extreme are declared to have superpowers.\n\nIt’s like saying, “I want to be really certain before I declare something significant”\n\n(an outlier in your case, people with superpower in my example)\n\n\nThis is a reasonable approach when the stakes are high or when we desire to minimize the chance of being wrong."
+    "section": "",
+    "text": "Choosing an alpha of 0.01 over 0.05 (in sum)\n\nThis is like tightening the rules of evidence to insure only the most extreme are declared to have superpowers.\n\nSimilar to saying, “I want to be certain before I declare something statistically significant”\n\n(an outlier in your case, people with superpowers in mine)\n\n\nThis is a reasonable approach when the risk involved is high or when we simply desire to minimize the chance of being wrong.\n\nDownside, choosing a small alpha might make the test too tough."
   },
   {
     "objectID": "ForLACSD.html#what-can-you-do-when-data-is-non-normal",
     "href": "ForLACSD.html#what-can-you-do-when-data-is-non-normal",
     "title": "LACSD presentation",
     "section": "What can you do when data is non-normal?",
-    "text": "What can you do when data is non-normal?\n\nFirst, we suggest using graphical methods to check for outliers\n\nThen test for normality (Shapiro-Wilk, used for samples from size 3 to 5000)\n\nIf not normal, the data could be transformed (e.g., log, square root, exponential) to be normal\n\nAlternate solution - move to a non-parametric method (e.g. 75th percentile + 1.5xIQR)"
+    "text": "What can you do when data is non-normal?\n\nFirst, we suggest using graphical methods to check for outliers\n\nThen test for normality (Shapiro-Wilk, used for samples from size 3 to 5000)\n\nIf not normal, the data could be transformed (e.g., log, square root, exponential) to be normal\nAlternate solution - move to a non-parametric method (e.g., values beyond the 75th percentile + 1.5xIQR as an outlier rule)"
   },
   {
     "objectID": "index.html",
