@@ -144,7 +144,7 @@
     "href": "ForLACSD.html#why-dixon",
     "title": "LACSD presentation",
     "section": "Why Dixon?",
-    "text": "Why Dixon?\n\nDixon’s Q test is used to identify an outlier.\n\nDixon’s test assumes the data originates from a normal distribution.\n\nThis test can only identify a single outlier in a data set.\n\nFor small samples (size 3 to about 30), this is the best performing test."
+    "text": "Why Dixon?\n\nDixon’s Q test is used to identify an outlier.\n\nDixon’s test assumes the data originates from a normal distribution.\n\nThis test can only identify a single outlier in a data set.\n\nFor small samples (size 3 to 25), this is the best performing test."
   },
   {
     "objectID": "ForLACSD.html#why-rosner",
@@ -158,42 +158,42 @@
     "href": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05",
     "title": "LACSD presentation",
     "section": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?",
-    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?\n\nLet’s play a game. I will lay down the rules/features of this game.\nSuppose I am trying to figure out if any of you have superpowers.\nThere are two kinds of candies in this jar.\nIf you can guess the color correctly in order for 7 or more (either 7 or all 8) of the first 8 I pull out, I declare that you have superpowers."
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05?\n\nLet’s play a game. I will lay down the rules/features of this game.\nSuppose I am trying to figure out if any of you have superpowers.\nThere are two kinds of candies in this jar.\nIf you can guess the color correctly in order for 9 or more (either 9 or all 10) of the first 10 I pull out, I declare that you have superpowers."
   },
   {
     "objectID": "ForLACSD.html#section-3",
     "href": "ForLACSD.html#section-3",
     "title": "LACSD presentation",
     "section": "",
-    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\n\nWhy 7 or all 8? Why not another value, like 5?\nDemanding 7 or all 8 is similar to setting alpha \\(\\alpha\\) in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.\n\nWe typically use an Alpha level of 0.05 (it’s OK to think 5%)"
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\n\nWhy 9 or all 10? Why not another value, like 7?\nDemanding 9 or all 10 is similar to setting alpha \\(\\alpha\\) in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.\n\nWe typically use an Alpha level of 0.05 (it’s OK to think 5%)"
   },
   {
     "objectID": "ForLACSD.html#section-4",
     "href": "ForLACSD.html#section-4",
     "title": "LACSD presentation",
     "section": "",
-    "text": "Normal Distribution with Alpha = 0.05 Shaded"
+    "text": "Normal Distribution with (two-sided) Alpha = 0.05 Shaded\nThe total of both red areas is 0.05 (0.025 under each tail)"
   },
   {
     "objectID": "ForLACSD.html#section-5",
     "href": "ForLACSD.html#section-5",
     "title": "LACSD presentation",
     "section": "",
-    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\nAny discussion of alpha should also include a discussion of the P-value\n\nSuppose you make your guess, and it turns out you guessed 7 out of the 8 candies correctly.\n\nMathematically, that is a probability of 0.035 or 3.5%\nWe will label the 0.035 as a “P-value” and it is the realization of the guess.\n\nGiven the agreed upon rule (7 or 8), I declare that you have superpowers."
+    "text": "What is alpha \\(\\alpha\\)? Why \\(\\alpha\\)= 0.05? (cont’d)\nAny discussion of alpha should also include a discussion of the P-value\n\nSuppose you make your guess, and it turns out you guessed 9 out of the 10 candies correctly.\n\nMathematically, that is a probability of 0.021 or 2.1%\nWe will label the 0.021 as a “P-value” and it is the realization of the guess.\n\nGiven the agreed upon rule (9 or 10), I declare that you have superpowers."
   },
   {
     "objectID": "ForLACSD.html#section-6",
     "href": "ForLACSD.html#section-6",
     "title": "LACSD presentation",
     "section": "",
-    "text": "Normal Distribution with Alpha = 0.05 Shaded and p-value of 0.035 marked"
+    "text": "Normal Distribution with Alpha = 0.05 Shaded and p-value of 0.021 marked"
   },
   {
     "objectID": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
     "href": "ForLACSD.html#why-alpha-0.05-why-not-alpha-0.01",
     "title": "LACSD presentation",
     "section": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?",
-    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?\n\nIn some disciplines (e.g., social sciences), researchers are willing to set alpha to 0.10\n\nIn most disciplines, researchers set it to 0.05\n\nIn still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher.\nIf I had said “you need to get 8/8 correct” that would be setting alpha to 0.004"
+    "text": "Why \\(\\alpha\\)= 0.05? Why not \\(\\alpha\\) = 0.01?\n\nIn some disciplines (e.g., social sciences), researchers are willing to set alpha to 0.10\n\nIn most disciplines, researchers set it to 0.05\n\nIn still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher.\nIf I had said “you need to get 10/10 correct” that would be setting alpha to 0.001 if only 8/10, it’s closer to 0.10"
   },
   {
     "objectID": "ForLACSD.html#section-7",

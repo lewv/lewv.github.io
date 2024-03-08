@@ -401,7 +401,7 @@ March 7 2024
 </li>
 <li class="fragment">This test can only identify a single outlier in a data set.<br>
 </li>
-<li class="fragment">For small samples (size 3 to about 30), this is the best performing test.</li>
+<li class="fragment">For small samples (size 3 to 25), this is the best performing test.</li>
 </ul>
 </section>
 <section id="why-rosner" class="slide level2">
@@ -422,22 +422,23 @@ March 7 2024
 <li class="fragment">Let’s play a game. I will lay down the rules/features of this game.</li>
 <li class="fragment">Suppose I am trying to figure out if any of you have superpowers.</li>
 <li class="fragment">There are two kinds of candies in this jar.</li>
-<li class="fragment">If you can guess the color correctly <strong>in order</strong> for 7 or more (either 7 or all 8) of the first 8 I pull out, I declare that you have superpowers.</li>
+<li class="fragment">If you can guess the color correctly <strong>in order</strong> for 9 or more (either 9 or all 10) of the first 10 I pull out, I declare that you have superpowers.</li>
 </ul>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
 <h3 id="what-is-alpha-alpha-why-alpha-0.05-contd">What is alpha <span class="math inline">\(\alpha\)</span>? Why <span class="math inline">\(\alpha\)</span>= 0.05? (cont’d)</h3>
 <ul>
-<li class="fragment">Why 7 or all 8? Why not another value, like 5?</li>
-<li class="fragment">Demanding 7 or all 8 is similar to setting alpha <span class="math inline">\(\alpha\)</span> in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.<br>
+<li class="fragment">Why 9 or all 10? Why not another value, like 7?</li>
+<li class="fragment">Demanding 9 or all 10 is similar to setting alpha <span class="math inline">\(\alpha\)</span> in statistics. Alpha is a threshold or “line in the sand” that indicates how extreme a result needs to be before we think something other than luck alone is at work.<br>
 </li>
 <li class="fragment">We typically use an Alpha level of 0.05 (it’s OK to think 5%)</li>
 </ul>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<h3 id="normal-distribution-with-alpha-0.05-shaded">Normal Distribution with Alpha = 0.05 Shaded</h3>
+<h3 id="normal-distribution-with-two-sided-alpha-0.05-shaded">Normal Distribution with (two-sided) Alpha = 0.05 Shaded</h3>
+<p>The total of both red areas is 0.05 (0.025 under each tail)</p>
 
 <img data-src="ForLACSD_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
 <section id="section-5" class="slide level2">
@@ -445,17 +446,17 @@ March 7 2024
 <h3 id="what-is-alpha-alpha-why-alpha-0.05-contd-1">What is alpha <span class="math inline">\(\alpha\)</span>? Why <span class="math inline">\(\alpha\)</span>= 0.05? (cont’d)</h3>
 <p>Any discussion of alpha should also include a discussion of the P-value</p>
 <ul>
-<li class="fragment">Suppose you make your guess, and it turns out you guessed 7 out of the 8 candies correctly.<br>
+<li class="fragment">Suppose you make your guess, and it turns out you guessed 9 out of the 10 candies correctly.<br>
 </li>
-<li class="fragment">Mathematically, that is a probability of 0.035 or 3.5%</li>
-<li class="fragment">We will label the 0.035 as a “P-value” and it is the realization of the guess.<br>
+<li class="fragment">Mathematically, that is a probability of 0.021 or 2.1%</li>
+<li class="fragment">We will label the 0.021 as a “P-value” and it is the realization of the guess.<br>
 </li>
-<li class="fragment">Given the agreed upon rule (7 or 8), I declare that you have superpowers.</li>
+<li class="fragment">Given the agreed upon rule (9 or 10), I declare that you have superpowers.</li>
 </ul>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
-<h3 id="normal-distribution-with-alpha-0.05-shaded-and-p-value-of-0.035-marked">Normal Distribution with Alpha = 0.05 Shaded and p-value of 0.035 marked</h3>
+<h3 id="normal-distribution-with-alpha-0.05-shaded-and-p-value-of-0.021-marked">Normal Distribution with Alpha = 0.05 Shaded and p-value of 0.021 marked</h3>
 
 <img data-src="ForLACSD_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
 <section id="why-alpha-0.05-why-not-alpha-0.01" class="slide level2">
@@ -466,7 +467,7 @@ March 7 2024
 <li class="fragment">In most disciplines, researchers set it to 0.05<br>
 </li>
 <li class="fragment">In still others (e.g., engineering, medicine) it is set even smaller, like 0.01, it’s like making the rule stricter/tougher.</li>
-<li class="fragment">If I had said “you need to get 8/8 correct” that would be setting alpha to 0.004</li>
+<li class="fragment">If I had said “you need to get 10/10 correct” that would be setting alpha to 0.001 if only 8/10, it’s closer to 0.10</li>
 </ul>
 </section>
 <section id="section-7" class="slide level2">
