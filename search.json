@@ -144,14 +144,14 @@
     "href": "ForLACSD.html#why-dixon",
     "title": "LACSD presentation",
     "section": "Why Dixon?",
-    "text": "Why Dixon?\n\nDixon’s Q test is used to identify an outlier.\n\nDixon’s test assumes the data originates from a normal distribution.\n\nThis test can only identify a single outlier in a data set.\n\nFor small samples (size 3 to 25), this is the best performing test."
+    "text": "Why Dixon?\n\nDixon’s Q test is used to identify an outlier.\n\nDixon’s test assumes the data originates from a normal distribution.\n\nThis test can only identify a single outlier in a data set.\n\nFor small samples (size 3 to about 30), this is the best performing test."
   },
   {
     "objectID": "ForLACSD.html#why-rosner",
     "href": "ForLACSD.html#why-rosner",
     "title": "LACSD presentation",
     "section": "Why Rosner?",
-    "text": "Why Rosner?\n\nRosner ESD test can identify more than one outlier in set of measurements.\n\nRosner also assumes the data originates from a normal distribution.\n\nRosner’s test can detect outliers even when tests like Dixon (single outlier) cannot because multiple outliers could mask each other.\n\nThis test has been shown to be very accurate for n ≥ 25."
+    "text": "Why Rosner?\n\nRosner ESD test can identify up to 10 outliers in set of measurements and has been shown to be very accurate for n ≥ 25.\nRosner’s test does not require a user to know how many outliers there are beforehand.\n\nRosner also assumes the data originates from a normal distribution.\n\nRosner’s test can detect outliers even when tests like Dixon (single outlier) cannot because multiple outliers could mask each other."
   },
   {
     "objectID": "ForLACSD.html#what-is-alpha-alpha-why-alpha-0.05",
