@@ -439,5 +439,166 @@
     "title": "About",
     "section": "",
     "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/\nThat is not a photograph of me, but my family’s cat, Harry. That was taken Christmas morning after I asked him to get out of my chair."
+  },
+  {
+    "objectID": "SROI.html#introduction",
+    "href": "SROI.html#introduction",
+    "title": "SROI",
+    "section": "Introduction",
+    "text": "Introduction\n\nSocial Return on Investment (SROI) analysis is a way to measure and document the value created by social, environmental, and economic activities.\nSROI is an approach that can help organizations understand the influence of their work on stakeholders above and beyond standard financial metrics.\nSROI goal is to generate a more comprehensive view of the performance and effectiveness of an organization or project by monetarily valuing social and environmental outcomes,"
+  },
+  {
+    "objectID": "SROI.html#sroi-analysis",
+    "href": "SROI.html#sroi-analysis",
+    "title": "SROI",
+    "section": "SROI analysis",
+    "text": "SROI analysis\ninvolves:\n\nIdentifying Stakeholders: Determining who is affected by the organization’s activities and should be part of the analysis.\nMapping Outcomes: Identifying the social, environmental, and economic outcomes resulting from the organization’s activities.\nEvidencing Outcomes: Collecting evidence for the outcomes\nValuing Outcomes: estimating the value of outcomes monetarily"
+  },
+  {
+    "objectID": "SROI.html#sroi-analysis-1",
+    "href": "SROI.html#sroi-analysis-1",
+    "title": "SROI",
+    "section": "SROI Analysis:",
+    "text": "SROI Analysis:\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
+  },
+  {
+    "objectID": "SROI.html#sroi-analysis-contd",
+    "href": "SROI.html#sroi-analysis-contd",
+    "title": "SROI",
+    "section": "SROI Analysis (cont’d):",
+    "text": "SROI Analysis (cont’d):\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time"
+  },
+  {
+    "objectID": "SROI.html#sroi-analysis-contd-1",
+    "href": "SROI.html#sroi-analysis-contd-1",
+    "title": "SROI",
+    "section": "SROI Analysis (cont’d):",
+    "text": "SROI Analysis (cont’d):\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
+  },
+  {
+    "objectID": "SROI.html#technical-background",
+    "href": "SROI.html#technical-background",
+    "title": "SROI",
+    "section": "Technical Background:",
+    "text": "Technical Background:\nThe level of mathematics or statistics required for Social Return on Investment (SROI) analysis varies with the depth and complexity of the analysis.\n\nBasic Arithmetic: Comfort with basic arithmetic operations (addition, subtraction, multiplication, division)\nAlgebra: Understanding how to solve equations and manipulate algebraic expressions\nPercentages and Proportions Understanding how to calculate and interpret percentages"
+  },
+  {
+    "objectID": "SROI.html#technical-background-1",
+    "href": "SROI.html#technical-background-1",
+    "title": "SROI",
+    "section": "Technical Background",
+    "text": "Technical Background\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
+  },
+  {
+    "objectID": "SROI.html#technical-background-2",
+    "href": "SROI.html#technical-background-2",
+    "title": "SROI",
+    "section": "Technical Background",
+    "text": "Technical Background\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
+  },
+  {
+    "objectID": "SROI.html#technical-background-contd",
+    "href": "SROI.html#technical-background-contd",
+    "title": "SROI",
+    "section": "Technical Background (cont’d):",
+    "text": "Technical Background (cont’d):\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
+  },
+  {
+    "objectID": "SROI.html#technical-background-contd-1",
+    "href": "SROI.html#technical-background-contd-1",
+    "title": "SROI",
+    "section": "Technical Background (cont’d):",
+    "text": "Technical Background (cont’d):\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
+  },
+  {
+    "objectID": "SROI.html#example",
+    "href": "SROI.html#example",
+    "title": "SROI",
+    "section": "Example",
+    "text": "Example\nThis was derived from Kennedy & Philips (2011) on using the SROI methodology to evaluate the social impact of an Expert Patient Program for Substance and Alcohol Misuse in a UK region. First their model is described:"
+  },
+  {
+    "objectID": "SROI.html#example-1",
+    "href": "SROI.html#example-1",
+    "title": "SROI",
+    "section": "Example",
+    "text": "Example\nThe outcomes are measured\n\nThe total value of each change, was calculated as: - The financial proxy - Multiplied by the reported quantity of the outcome - Minus any deadweight, attribution and / or displacement factors\nThe total is then the total of all the impact calculations for each outcome. The total impact (at the end of the period of analysis)"
+  },
+  {
+    "objectID": "SROI.html#section",
+    "href": "SROI.html#section",
+    "title": "SROI",
+    "section": "",
+    "text": "Introduction\n\nSocial Return on Investment (SROI) analysis is a way to measure and document the value created by social, environmental, and economic activities.\nSROI is an approach that can help organizations understand the influence of their work on stakeholders above and beyond standard financial metrics.\nSROI goal is to generate a more comprehensive view of the performance and effectiveness of an organization or project by monetarily valuing social and environmental outcomes,"
+  },
+  {
+    "objectID": "SROI.html#section-1",
+    "href": "SROI.html#section-1",
+    "title": "SROI",
+    "section": "",
+    "text": "SROI analysis\ninvolves:\n\nIdentifying Stakeholders: Determining who is affected by the organization’s activities and should be part of the analysis.\nMapping Outcomes: Identifying the social, environmental, and economic outcomes resulting from the organization’s activities.\nEvidencing Outcomes: Collecting evidence for the outcomes\nValuing Outcomes: estimating the value of outcomes monetarily"
+  },
+  {
+    "objectID": "SROI.html#section-2",
+    "href": "SROI.html#section-2",
+    "title": "SROI",
+    "section": "",
+    "text": "SROI Analysis (cont’d):\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time"
+  },
+  {
+    "objectID": "SROI.html#section-3",
+    "href": "SROI.html#section-3",
+    "title": "SROI",
+    "section": "",
+    "text": "SROI Analysis (cont’d):\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
+  },
+  {
+    "objectID": "SROI.html#section-4",
+    "href": "SROI.html#section-4",
+    "title": "SROI",
+    "section": "",
+    "text": "Technical Background:\nThe level of mathematics or statistics required for Social Return on Investment (SROI) analysis varies with the depth and complexity of the analysis.\n\nBasic Arithmetic: Comfort with basic arithmetic operations (addition, subtraction, multiplication, division)\nAlgebra: Understanding how to solve equations and manipulate algebraic expressions\nPercentages and Proportions Understanding how to calculate and interpret percentages"
+  },
+  {
+    "objectID": "SROI.html#section-5",
+    "href": "SROI.html#section-5",
+    "title": "SROI",
+    "section": "",
+    "text": "Technical Background (cont’d):\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
+  },
+  {
+    "objectID": "SROI.html#section-6",
+    "href": "SROI.html#section-6",
+    "title": "SROI",
+    "section": "",
+    "text": "Technical Background (cont’d):\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
+  },
+  {
+    "objectID": "SROI.html#section-7",
+    "href": "SROI.html#section-7",
+    "title": "SROI",
+    "section": "",
+    "text": "Example\nThis was derived from Kennedy & Philips (2011) on using the SROI methodology to evaluate the social impact of an Expert Patient Program for Substance and Alcohol Misuse in a UK region. First their model is described in the next slide"
+  },
+  {
+    "objectID": "SROI.html#section-8",
+    "href": "SROI.html#section-8",
+    "title": "SROI",
+    "section": "",
+    "text": "Example\nThen the outcomes are measured"
+  },
+  {
+    "objectID": "SROI.html#model",
+    "href": "SROI.html#model",
+    "title": "SROI",
+    "section": "Model",
+    "text": "Model"
+  },
+  {
+    "objectID": "SROI.html#section-9",
+    "href": "SROI.html#section-9",
+    "title": "SROI",
+    "section": "",
+    "text": "Example\nThe total value of each change, was calculated as:\n\nThe financial proxy\n\nMultiplied by the reported quantity of the outcome\n\nMinus any deadweight, attribution and / or displacement factors\n\nThe total is then the total of all the impact calculations for each outcome. The total impact (at the end of the period of analysis)"
   }
 ]
