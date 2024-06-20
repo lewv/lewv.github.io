@@ -112,6 +112,83 @@
     "text": "8. In the end, in whatever you do, have fun doing it.\n\nYou will only be this young, this strong, in this place and in this time once.\n\nIf you are not enjoying your time, then you are truly wasting your time."
   },
   {
+    "objectID": "SROI.html#section",
+    "href": "SROI.html#section",
+    "title": "SROI",
+    "section": "",
+    "text": "Introduction\n\nSocial Return on Investment (SROI) analysis is a way to measure and document the value created by social, environmental, and economic activities.\nSROI is an approach that can help organizations understand the influence of their work on stakeholders above and beyond standard financial metrics.\nSROI goal is to generate a more comprehensive view of the performance and effectiveness of an organization or project by monetarily valuing social and environmental outcomes,"
+  },
+  {
+    "objectID": "SROI.html#section-1",
+    "href": "SROI.html#section-1",
+    "title": "SROI",
+    "section": "",
+    "text": "SROI analysis\ninvolves:\n\nIdentifying Stakeholders: Determining who is affected by the organization’s activities and should be part of the analysis.\nMapping Outcomes: Identifying the social, environmental, and economic outcomes resulting from the organization’s activities.\nEvidencing Outcomes: Collecting evidence for the outcomes\nValuing Outcomes: estimating the value of outcomes monetarily"
+  },
+  {
+    "objectID": "SROI.html#section-2",
+    "href": "SROI.html#section-2",
+    "title": "SROI",
+    "section": "",
+    "text": "SROI Analysis (cont’d):\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time"
+  },
+  {
+    "objectID": "SROI.html#section-3",
+    "href": "SROI.html#section-3",
+    "title": "SROI",
+    "section": "",
+    "text": "SROI Analysis (cont’d):\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
+  },
+  {
+    "objectID": "SROI.html#section-4",
+    "href": "SROI.html#section-4",
+    "title": "SROI",
+    "section": "",
+    "text": "Technical Background:\nThe level of mathematics or statistics required for Social Return on Investment (SROI) analysis varies with the depth and complexity of the analysis.\n\nBasic Arithmetic: Comfort with basic arithmetic operations (addition, subtraction, multiplication, division)\nAlgebra: Understanding how to solve equations and manipulate algebraic expressions\nPercentages and Proportions Understanding how to calculate and interpret percentages"
+  },
+  {
+    "objectID": "SROI.html#section-5",
+    "href": "SROI.html#section-5",
+    "title": "SROI",
+    "section": "",
+    "text": "Technical Background (cont’d):\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
+  },
+  {
+    "objectID": "SROI.html#section-6",
+    "href": "SROI.html#section-6",
+    "title": "SROI",
+    "section": "",
+    "text": "Technical Background (cont’d):\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
+  },
+  {
+    "objectID": "SROI.html#section-7",
+    "href": "SROI.html#section-7",
+    "title": "SROI",
+    "section": "",
+    "text": "Example\nThis was derived from Kennedy & Philips (2011) on using the SROI methodology to evaluate the social impact of an Expert Patient Program for Substance and Alcohol Misuse in a UK region. First their model is described in the next slide"
+  },
+  {
+    "objectID": "SROI.html#model",
+    "href": "SROI.html#model",
+    "title": "SROI",
+    "section": "Model",
+    "text": "Model"
+  },
+  {
+    "objectID": "SROI.html#section-8",
+    "href": "SROI.html#section-8",
+    "title": "SROI",
+    "section": "",
+    "text": "Example\nThen the outcomes are measured"
+  },
+  {
+    "objectID": "SROI.html#section-9",
+    "href": "SROI.html#section-9",
+    "title": "SROI",
+    "section": "",
+    "text": "Example\nThe total value of each change, was calculated as:\n\nThe financial proxy\n\nMultiplied by the reported quantity of the outcome\n\nMinus any deadweight, attribution and / or displacement factors\n\nThe total is then the total of all the impact calculations for each outcome. The total impact (at the end of the period of analysis)"
+  },
+  {
     "objectID": "ForLACSD.html#todays-goals",
     "href": "ForLACSD.html#todays-goals",
     "title": "LACSD presentation",
@@ -221,7 +298,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Presentation for LACSD\nNormal Lesson\nR Refresher\nEDA\nDataFest Presentation"
+    "text": "Normal Lesson\nR Refresher\nEDA"
   },
   {
     "objectID": "RRefresher.html",
@@ -333,7 +410,7 @@
     "href": "EDA.html",
     "title": "EDA",
     "section": "",
-    "text": "EDA (Exploratory data analysis) involves the use of graphics, summaries and transformations to better understand the data and answer our questions.\nExploratory methods, make few assumptions about the distributional shape of the data.\nOur results can help us refine our questions or develop new ones.\n\nHere’s what Wickham says in “R for Data Science”: (page 82)\n\nYour goal during EDA is to develop an understanding of your data. The easiest way to do this is to use questions as tools to guide your investigation. When you ask a question, the question focuses your attention on a specific part of your dataset and helps you decide which graphs, models, or transformations to make.\n\nThere are no “real” rules here, but the data I’m using today comes from a competition, so obviously winning was (the competition is closed) the goal. But to win, it was important to focus on two things\n\nVariation\nCovariation\n\n\n\n\nlibrary(tidyverse)\nlibrary(DT)\nlibrary(lubridate)\nlibrary(ggthemes)\nlibrary(RColorBrewer)\n\n\n\n\n\nThis example is taken from Kaggle Shelter Outcomes https://www.kaggle.com/c/shelter-animal-outcomes\n\n\nlibrary(readr)\ntrain &lt;- read_csv(\"train.csv.gz\")\n\nA .gz or a .zip is a compressed file. Compression saves space on our machines. The functions in readr can read those directly (some functions require decompression first)\n\nThe dataset train contains the following variables, take a look:\n\n\ndatatable(train)\n\n\n\n\n\n\nmore compactly\n\nglimpse(train)\n\nRows: 26,729\nColumns: 10\n$ AnimalID       &lt;chr&gt; \"A671945\", \"A656520\", \"A686464\", \"A683430\", \"A667013\", …\n$ Name           &lt;chr&gt; \"Hambone\", \"Emily\", \"Pearce\", NA, NA, \"Elsa\", \"Jimmy\", …\n$ DateTime       &lt;dttm&gt; 2014-02-12 18:22:00, 2013-10-13 12:44:00, 2015-01-31 1…\n$ OutcomeType    &lt;chr&gt; \"Return_to_owner\", \"Euthanasia\", \"Adoption\", \"Transfer\"…\n$ OutcomeSubtype &lt;chr&gt; NA, \"Suffering\", \"Foster\", \"Partner\", \"Partner\", \"Partn…\n$ AnimalType     &lt;chr&gt; \"Dog\", \"Cat\", \"Dog\", \"Cat\", \"Dog\", \"Dog\", \"Cat\", \"Cat\",…\n$ SexuponOutcome &lt;chr&gt; \"Neutered Male\", \"Spayed Female\", \"Neutered Male\", \"Int…\n$ AgeuponOutcome &lt;chr&gt; \"1 year\", \"1 year\", \"2 years\", \"3 weeks\", \"2 years\", \"1…\n$ Breed          &lt;chr&gt; \"Shetland Sheepdog Mix\", \"Domestic Shorthair Mix\", \"Pit…\n$ Color          &lt;chr&gt; \"Brown/White\", \"Cream Tabby\", \"Blue/White\", \"Blue Cream…\n\n\n\n\n\n\nThe data needs to be prepared or processed for analysis (data cleaning)\n\nAn important issue will always be missing values.\nna.omit( ) or complete.cases() can be used. (In more advanced courses, substitution of missing values instead of deletion)\n\n\n\n\ntrain %&gt;% summarise_all(funs(sum(is.na(.))))\n\n# A tibble: 1 × 10\n  AnimalID  Name DateTime OutcomeType OutcomeSubtype AnimalType SexuponOutcome\n     &lt;int&gt; &lt;int&gt;    &lt;int&gt;       &lt;int&gt;          &lt;int&gt;      &lt;int&gt;          &lt;int&gt;\n1        0  7691        0           0          13612          0              1\n# ℹ 3 more variables: AgeuponOutcome &lt;int&gt;, Breed &lt;int&gt;, Color &lt;int&gt;\n\n\n\n\n\n\ntrain &lt;- train %&gt;%\n     mutate(NoName = is.na(Name))\n\n\ntable(train$NoName)\n\n\nFALSE  TRUE \n19038  7691 \n\n\nMake some decisions about the remainder. Real life data is always messy so make sure you use the useNA = option when tabling data:\n\ntable(train$OutcomeSubtype, useNA = \"always\")\n\n\n         Aggressive              At Vet                Barn            Behavior \n                320                   4                   2                  86 \nCourt/Investigation             Enroute              Foster           In Foster \n                  6                   8                1800                  52 \n          In Kennel          In Surgery             Medical             Offsite \n                114                   3                  66                 165 \n            Partner         Rabies Risk                SCRP           Suffering \n               7816                  74                1599                1002 \n               &lt;NA&gt; \n              13612 \n\n\n\ntable(train$SexuponOutcome, useNA = \"always\")\n\n\nIntact Female   Intact Male Neutered Male Spayed Female       Unknown \n         3511          3525          9779          8820          1093 \n         &lt;NA&gt; \n            1 \n\n\n\ntable(train$AgeuponOutcome, useNA = \"always\")\n\n\n  0 years     1 day   1 month    1 week   1 weeks    1 year 10 months  10 years \n       22        66      1281       146       171      3969       457       446 \n11 months  11 years  12 years  13 years  14 years  15 years  16 years  17 years \n      166       126       234       143        97        85        36        17 \n 18 years  19 years    2 days  2 months   2 weeks   2 years  20 years    3 days \n       10         3        99      3397       529      3742         2       109 \n 3 months   3 weeks   3 years    4 days  4 months   4 weeks   4 years    5 days \n     1277       659      1823        50       888       334      1071        24 \n 5 months   5 weeks   5 years    6 days  6 months   6 years  7 months   7 years \n      652        11       992        50       588       670       288       531 \n 8 months   8 years  9 months   9 years      &lt;NA&gt; \n      402       536       224       288        18 \n\n\n\ntrain[, c(5,7,8)] &lt;- train %&gt;% select(OutcomeSubtype, SexuponOutcome, AgeuponOutcome) %&gt;%\n     mutate_each(funs(replace(., is.na(.), \"Unknown\")))\n\n\ntrain %&gt;% summarise_all(funs(sum(is.na(.))))\n\n# A tibble: 1 × 11\n  AnimalID  Name DateTime OutcomeType OutcomeSubtype AnimalType SexuponOutcome\n     &lt;int&gt; &lt;int&gt;    &lt;int&gt;       &lt;int&gt;          &lt;int&gt;      &lt;int&gt;          &lt;int&gt;\n1        0  7691        0           0              0          0              0\n# ℹ 4 more variables: AgeuponOutcome &lt;int&gt;, Breed &lt;int&gt;, Color &lt;int&gt;,\n#   NoName &lt;int&gt;\n\n\n\n\n\n\nhead(train$AgeuponOutcome)\n\n[1] \"1 year\"  \"1 year\"  \"2 years\" \"3 weeks\" \"2 years\" \"1 month\"\n\n\n\ntrain$AgeuponOutcome &lt;- gsub('s', '', train$AgeuponOutcome)\n\n\ntable(train$AgeuponOutcome)\n\n\n  0 year    1 day  1 month   1 week   1 year 10 month  10 year 11 month \n      22       66     1281      317     3969      457      446      166 \n 11 year  12 year  13 year  14 year  15 year  16 year  17 year  18 year \n     126      234      143       97       85       36       17       10 \n 19 year    2 day  2 month   2 week   2 year  20 year    3 day  3 month \n       3       99     3397      529     3742        2      109     1277 \n  3 week   3 year    4 day  4 month   4 week   4 year    5 day  5 month \n     659     1823       50      888      334     1071       24      652 \n  5 week   5 year    6 day  6 month   6 year  7 month   7 year  8 month \n      11      992       50      588      670      288      531      402 \n  8 year  9 month   9 year  Unknown \n     536      224      288       18"
+    "text": "EDA (Exploratory data analysis) involves the use of graphics, summaries and transformations to better understand the data and answer our questions.\nExploratory methods, make few assumptions about the distributional shape of the data.\nOur results can help us refine our questions or develop new ones.\n\nHere’s what Wickham says in “R for Data Science”: (page 82)\n\nYour goal during EDA is to develop an understanding of your data. The easiest way to do this is to use questions as tools to guide your investigation. When you ask a question, the question focuses your attention on a specific part of your dataset and helps you decide which graphs, models, or transformations to make.\n\nThere are no “real” rules here, but the data I’m using today comes from a competition, so obviously winning was (the competition is closed) the goal. But to win, it was important to focus on two things\n\nVariation\nCovariation\n\n\n\n\nlibrary(tidyverse)\nlibrary(DT)\nlibrary(lubridate)\nlibrary(ggthemes)\nlibrary(RColorBrewer)\n\n\n\n\n\nThis example is taken from Kaggle Shelter Outcomes https://www.kaggle.com/c/shelter-animal-outcomes\n\n\nlibrary(readr)\ntrain &lt;- read_csv(\"train.csv.gz\")\n\nA .gz or a .zip is a compressed file. Compression saves space on our machines. The functions in readr can read those directly (some functions require decompression first)\n\nThe dataset train contains the following variables, take a look:\n\n\ndatatable(train)\n\n\n\n\n\nmore compactly\n\nglimpse(train)\n\nRows: 26,729\nColumns: 10\n$ AnimalID       &lt;chr&gt; \"A671945\", \"A656520\", \"A686464\", \"A683430\", \"A667013\", …\n$ Name           &lt;chr&gt; \"Hambone\", \"Emily\", \"Pearce\", NA, NA, \"Elsa\", \"Jimmy\", …\n$ DateTime       &lt;dttm&gt; 2014-02-12 18:22:00, 2013-10-13 12:44:00, 2015-01-31 1…\n$ OutcomeType    &lt;chr&gt; \"Return_to_owner\", \"Euthanasia\", \"Adoption\", \"Transfer\"…\n$ OutcomeSubtype &lt;chr&gt; NA, \"Suffering\", \"Foster\", \"Partner\", \"Partner\", \"Partn…\n$ AnimalType     &lt;chr&gt; \"Dog\", \"Cat\", \"Dog\", \"Cat\", \"Dog\", \"Dog\", \"Cat\", \"Cat\",…\n$ SexuponOutcome &lt;chr&gt; \"Neutered Male\", \"Spayed Female\", \"Neutered Male\", \"Int…\n$ AgeuponOutcome &lt;chr&gt; \"1 year\", \"1 year\", \"2 years\", \"3 weeks\", \"2 years\", \"1…\n$ Breed          &lt;chr&gt; \"Shetland Sheepdog Mix\", \"Domestic Shorthair Mix\", \"Pit…\n$ Color          &lt;chr&gt; \"Brown/White\", \"Cream Tabby\", \"Blue/White\", \"Blue Cream…\n\n\n\n\n\n\nThe data needs to be prepared or processed for analysis (data cleaning)\n\nAn important issue will always be missing values.\nna.omit( ) or complete.cases() can be used. (In more advanced courses, substitution of missing values instead of deletion)\n\n\n\n\ntrain %&gt;% summarise_all(funs(sum(is.na(.))))\n\n# A tibble: 1 × 10\n  AnimalID  Name DateTime OutcomeType OutcomeSubtype AnimalType SexuponOutcome\n     &lt;int&gt; &lt;int&gt;    &lt;int&gt;       &lt;int&gt;          &lt;int&gt;      &lt;int&gt;          &lt;int&gt;\n1        0  7691        0           0          13612          0              1\n# ℹ 3 more variables: AgeuponOutcome &lt;int&gt;, Breed &lt;int&gt;, Color &lt;int&gt;\n\n\n\n\n\n\ntrain &lt;- train %&gt;%\n     mutate(NoName = is.na(Name))\n\n\ntable(train$NoName)\n\n\nFALSE  TRUE \n19038  7691 \n\n\nMake some decisions about the remainder. Real life data is always messy so make sure you use the useNA = option when tabling data:\n\ntable(train$OutcomeSubtype, useNA = \"always\")\n\n\n         Aggressive              At Vet                Barn            Behavior \n                320                   4                   2                  86 \nCourt/Investigation             Enroute              Foster           In Foster \n                  6                   8                1800                  52 \n          In Kennel          In Surgery             Medical             Offsite \n                114                   3                  66                 165 \n            Partner         Rabies Risk                SCRP           Suffering \n               7816                  74                1599                1002 \n               &lt;NA&gt; \n              13612 \n\n\n\ntable(train$SexuponOutcome, useNA = \"always\")\n\n\nIntact Female   Intact Male Neutered Male Spayed Female       Unknown \n         3511          3525          9779          8820          1093 \n         &lt;NA&gt; \n            1 \n\n\n\ntable(train$AgeuponOutcome, useNA = \"always\")\n\n\n  0 years     1 day   1 month    1 week   1 weeks    1 year 10 months  10 years \n       22        66      1281       146       171      3969       457       446 \n11 months  11 years  12 years  13 years  14 years  15 years  16 years  17 years \n      166       126       234       143        97        85        36        17 \n 18 years  19 years    2 days  2 months   2 weeks   2 years  20 years    3 days \n       10         3        99      3397       529      3742         2       109 \n 3 months   3 weeks   3 years    4 days  4 months   4 weeks   4 years    5 days \n     1277       659      1823        50       888       334      1071        24 \n 5 months   5 weeks   5 years    6 days  6 months   6 years  7 months   7 years \n      652        11       992        50       588       670       288       531 \n 8 months   8 years  9 months   9 years      &lt;NA&gt; \n      402       536       224       288        18 \n\n\n\ntrain[, c(5,7,8)] &lt;- train %&gt;% select(OutcomeSubtype, SexuponOutcome, AgeuponOutcome) %&gt;%\n     mutate_each(funs(replace(., is.na(.), \"Unknown\")))\n\n\ntrain %&gt;% summarise_all(funs(sum(is.na(.))))\n\n# A tibble: 1 × 11\n  AnimalID  Name DateTime OutcomeType OutcomeSubtype AnimalType SexuponOutcome\n     &lt;int&gt; &lt;int&gt;    &lt;int&gt;       &lt;int&gt;          &lt;int&gt;      &lt;int&gt;          &lt;int&gt;\n1        0  7691        0           0              0          0              0\n# ℹ 4 more variables: AgeuponOutcome &lt;int&gt;, Breed &lt;int&gt;, Color &lt;int&gt;,\n#   NoName &lt;int&gt;\n\n\n\n\n\n\nhead(train$AgeuponOutcome)\n\n[1] \"1 year\"  \"1 year\"  \"2 years\" \"3 weeks\" \"2 years\" \"1 month\"\n\n\n\ntrain$AgeuponOutcome &lt;- gsub('s', '', train$AgeuponOutcome)\n\n\ntable(train$AgeuponOutcome)\n\n\n  0 year    1 day  1 month   1 week   1 year 10 month  10 year 11 month \n      22       66     1281      317     3969      457      446      166 \n 11 year  12 year  13 year  14 year  15 year  16 year  17 year  18 year \n     126      234      143       97       85       36       17       10 \n 19 year    2 day  2 month   2 week   2 year  20 year    3 day  3 month \n       3       99     3397      529     3742        2      109     1277 \n  3 week   3 year    4 day  4 month   4 week   4 year    5 day  5 month \n     659     1823       50      888      334     1071       24      652 \n  5 week   5 year    6 day  6 month   6 year  7 month   7 year  8 month \n      11      992       50      588      670      288      531      402 \n  8 year  9 month   9 year  Unknown \n     536      224      288       18"
   },
   {
     "objectID": "EDA.html#loading-libraries",
@@ -347,7 +424,7 @@
     "href": "EDA.html#case-study",
     "title": "EDA",
     "section": "",
-    "text": "This example is taken from Kaggle Shelter Outcomes https://www.kaggle.com/c/shelter-animal-outcomes\n\n\nlibrary(readr)\ntrain &lt;- read_csv(\"train.csv.gz\")\n\nA .gz or a .zip is a compressed file. Compression saves space on our machines. The functions in readr can read those directly (some functions require decompression first)\n\nThe dataset train contains the following variables, take a look:\n\n\ndatatable(train)\n\n\n\n\n\n\nmore compactly\n\nglimpse(train)\n\nRows: 26,729\nColumns: 10\n$ AnimalID       &lt;chr&gt; \"A671945\", \"A656520\", \"A686464\", \"A683430\", \"A667013\", …\n$ Name           &lt;chr&gt; \"Hambone\", \"Emily\", \"Pearce\", NA, NA, \"Elsa\", \"Jimmy\", …\n$ DateTime       &lt;dttm&gt; 2014-02-12 18:22:00, 2013-10-13 12:44:00, 2015-01-31 1…\n$ OutcomeType    &lt;chr&gt; \"Return_to_owner\", \"Euthanasia\", \"Adoption\", \"Transfer\"…\n$ OutcomeSubtype &lt;chr&gt; NA, \"Suffering\", \"Foster\", \"Partner\", \"Partner\", \"Partn…\n$ AnimalType     &lt;chr&gt; \"Dog\", \"Cat\", \"Dog\", \"Cat\", \"Dog\", \"Dog\", \"Cat\", \"Cat\",…\n$ SexuponOutcome &lt;chr&gt; \"Neutered Male\", \"Spayed Female\", \"Neutered Male\", \"Int…\n$ AgeuponOutcome &lt;chr&gt; \"1 year\", \"1 year\", \"2 years\", \"3 weeks\", \"2 years\", \"1…\n$ Breed          &lt;chr&gt; \"Shetland Sheepdog Mix\", \"Domestic Shorthair Mix\", \"Pit…\n$ Color          &lt;chr&gt; \"Brown/White\", \"Cream Tabby\", \"Blue/White\", \"Blue Cream…"
+    "text": "This example is taken from Kaggle Shelter Outcomes https://www.kaggle.com/c/shelter-animal-outcomes\n\n\nlibrary(readr)\ntrain &lt;- read_csv(\"train.csv.gz\")\n\nA .gz or a .zip is a compressed file. Compression saves space on our machines. The functions in readr can read those directly (some functions require decompression first)\n\nThe dataset train contains the following variables, take a look:\n\n\ndatatable(train)\n\n\n\n\n\nmore compactly\n\nglimpse(train)\n\nRows: 26,729\nColumns: 10\n$ AnimalID       &lt;chr&gt; \"A671945\", \"A656520\", \"A686464\", \"A683430\", \"A667013\", …\n$ Name           &lt;chr&gt; \"Hambone\", \"Emily\", \"Pearce\", NA, NA, \"Elsa\", \"Jimmy\", …\n$ DateTime       &lt;dttm&gt; 2014-02-12 18:22:00, 2013-10-13 12:44:00, 2015-01-31 1…\n$ OutcomeType    &lt;chr&gt; \"Return_to_owner\", \"Euthanasia\", \"Adoption\", \"Transfer\"…\n$ OutcomeSubtype &lt;chr&gt; NA, \"Suffering\", \"Foster\", \"Partner\", \"Partner\", \"Partn…\n$ AnimalType     &lt;chr&gt; \"Dog\", \"Cat\", \"Dog\", \"Cat\", \"Dog\", \"Dog\", \"Cat\", \"Cat\",…\n$ SexuponOutcome &lt;chr&gt; \"Neutered Male\", \"Spayed Female\", \"Neutered Male\", \"Int…\n$ AgeuponOutcome &lt;chr&gt; \"1 year\", \"1 year\", \"2 years\", \"3 weeks\", \"2 years\", \"1…\n$ Breed          &lt;chr&gt; \"Shetland Sheepdog Mix\", \"Domestic Shorthair Mix\", \"Pit…\n$ Color          &lt;chr&gt; \"Brown/White\", \"Cream Tabby\", \"Blue/White\", \"Blue Cream…"
   },
   {
     "objectID": "EDA.html#initial-steps",
@@ -361,7 +438,7 @@
     "href": "EDA.html#making-more-of-that-datetime",
     "title": "EDA",
     "section": "Making more of that DateTime",
-    "text": "Making more of that DateTime\n\ntrain$hour    &lt;- hour(train$DateTime)\ntrain$DOW &lt;- wday(train$DateTime)\ntrain$month   &lt;- month(train$DateTime)\ntrain$year    &lt;- year(train$DateTime)\n\nConsider squeezing more information out of the data, Time of day can help us figure out when they are open:\n\nplot(table(train$hour), type=\"h\")\n\n\n\n\n\ntrain$period   &lt;- ifelse(train$hour &gt; 8 & train$hour &lt; 11, 'early',\n                  ifelse(train$hour &gt; 10 & train$hour &lt; 17, 'midday',\n                  ifelse(train$hour &gt; 16 & train$hour &lt; 19, 'endday', 'overnight')))\n\nthere is a problem with the ordering\n\nggplot(train, aes(x = period, y = AgeInDays)) + geom_boxplot() + theme_classic()"
+    "text": "Making more of that DateTime\n\ntrain$hour    &lt;- hour(train$DateTime)\ntrain$DOW &lt;- wday(train$DateTime)\ntrain$month   &lt;- month(train$DateTime)\ntrain$year    &lt;- year(train$DateTime)\n\nConsider squeezing more information out of the data, Time of day can help us figure out when they are open:\n\nplot(table(train$hour), type=\"h\")\n\n\n\n\n\n\n\n\n\ntrain$period   &lt;- ifelse(train$hour &gt; 8 & train$hour &lt; 11, 'early',\n                  ifelse(train$hour &gt; 10 & train$hour &lt; 17, 'midday',\n                  ifelse(train$hour &gt; 16 & train$hour &lt; 19, 'endday', 'overnight')))\n\nthere is a problem with the ordering\n\nggplot(train, aes(x = period, y = AgeInDays)) + geom_boxplot() + theme_classic()"
   },
   {
     "objectID": "EDA.html#check-the-results",
@@ -389,21 +466,21 @@
     "href": "EDA.html#string-work",
     "title": "EDA",
     "section": "String work",
-    "text": "String work\nThe variables that typically have too many values are strings, but we can be creative. There are 366 colors, too many to view on screen, but we can table and save to a data frame:\n\ncolors &lt;- train %&gt;% count(Color)\ndatatable(colors)\n\n\n\n\n\n\n\ncolors &lt;- colors %&gt;% mutate(color_rank = dense_rank(desc(n)))\ndatatable(colors)\n\n\n\n\n\n\n\ntrain2 &lt;- inner_join(train, colors[, c(1,3)])\n\n\nbreed\nThere is a lot of information here, but we can work with it using string functions.\n\ntrain2$mix &lt;- train2$Breed %&gt;% str_detect(., \"/|Mix\") \ndatatable(train2[, c(\"Breed\",\"mix\")])\n\n\n\n\n\n\nYou could probably think of more things we could do with our variables, like popular names, breed information, etc.\n\nWe begin with graphical tools to generate basic plots of the data to illuminate patterns\n\nWe then move into more complex plots to search for deviations from these patterns"
+    "text": "String work\nThe variables that typically have too many values are strings, but we can be creative. There are 366 colors, too many to view on screen, but we can table and save to a data frame:\n\ncolors &lt;- train %&gt;% count(Color)\ndatatable(colors)\n\n\n\n\n\n\ncolors &lt;- colors %&gt;% mutate(color_rank = dense_rank(desc(n)))\ndatatable(colors)\n\n\n\n\n\n\ntrain2 &lt;- inner_join(train, colors[, c(1,3)])\n\n\nbreed\nThere is a lot of information here, but we can work with it using string functions.\n\ntrain2$mix &lt;- train2$Breed %&gt;% str_detect(., \"/|Mix\") \ndatatable(train2[, c(\"Breed\",\"mix\")])\n\n\n\n\n\nYou could probably think of more things we could do with our variables, like popular names, breed information, etc.\n\nWe begin with graphical tools to generate basic plots of the data to illuminate patterns\n\nWe then move into more complex plots to search for deviations from these patterns"
   },
   {
     "objectID": "EDA.html#variation",
     "href": "EDA.html#variation",
     "title": "EDA",
     "section": "Variation",
-    "text": "Variation\n\nVariability is interesting and typically one will examine variables with the most variation.\nThere is variability in balance\nWhat is the source(s) of this variation?\n\nOne of the most important things to remember is the type of variable – do I have a numerical or categorical and if I have a numerical – is it discrete or continuous?\n\nggplot(train2, aes(x=AgeInDays)) + \n    geom_histogram(aes(y=..density..),bins=20, fill=\"cyan\", color=\"black\") +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_wsj()\n\n\n\n\n\nggplot(train2, aes(x=AgeInDays)) + \n    geom_histogram(aes(y=..density..),bins=20, fill=\"cyan\", color=\"black\") +\n    facet_wrap(~OutcomeType) +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_tufte()\n\n\n\n\n\nggplot(train2, aes(x=AgeInDays,fill=factor(AnimalType))) + \n    geom_histogram(aes(y=..density..)) +\n    facet_wrap(~OutcomeType + AnimalType) +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_solarized() + theme(legend.position=\"none\")\n\n\n\n\n\nggplot(train2, aes(x=AgeInDays,fill=factor(AnimalType))) + \n    geom_histogram(aes(y=..density..), color = \"black\") +\n    facet_wrap(OutcomeType ~ AnimalType, nrow=5) +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_pander() + theme(legend.position=\"none\")"
+    "text": "Variation\n\nVariability is interesting and typically one will examine variables with the most variation.\nThere is variability in balance\nWhat is the source(s) of this variation?\n\nOne of the most important things to remember is the type of variable – do I have a numerical or categorical and if I have a numerical – is it discrete or continuous?\n\nggplot(train2, aes(x=AgeInDays)) + \n    geom_histogram(aes(y=..density..),bins=20, fill=\"cyan\", color=\"black\") +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_wsj()\n\n\n\n\n\n\n\n\n\nggplot(train2, aes(x=AgeInDays)) + \n    geom_histogram(aes(y=..density..),bins=20, fill=\"cyan\", color=\"black\") +\n    facet_wrap(~OutcomeType) +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_tufte()\n\n\n\n\n\n\n\n\n\nggplot(train2, aes(x=AgeInDays,fill=factor(AnimalType))) + \n    geom_histogram(aes(y=..density..)) +\n    facet_wrap(~OutcomeType + AnimalType) +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_solarized() + theme(legend.position=\"none\")\n\n\n\n\n\n\n\n\n\nggplot(train2, aes(x=AgeInDays,fill=factor(AnimalType))) + \n    geom_histogram(aes(y=..density..), color = \"black\") +\n    facet_wrap(OutcomeType ~ AnimalType, nrow=5) +\n    ggtitle(\"Age distribution of shelter animals at outcome\") + \n    theme_pander() + theme(legend.position=\"none\")"
   },
   {
     "objectID": "EDA.html#outliers-or-unusual-values",
     "href": "EDA.html#outliers-or-unusual-values",
     "title": "EDA",
     "section": "Outliers or Unusual Values",
-    "text": "Outliers or Unusual Values\nWe might transform the variable “AgeInDays” to help us better understand it or perhaps make it more presentable.\nUsually long right hand tails can use a square root or a log transformation to help normalize them or at least bring the relationship into clearer focus:\n\ntrain2$AO &lt;- paste(train2$AnimalType, train2$OutcomeType, sep=\"-\")\nggplot(train2, aes(x=AO, y=sqrt(AgeInDays))) + \n    geom_boxplot(fill=rep(c(\"red\",\"blue\"), each=5)) + \n    theme(axis.text.x = element_text(angle = 90, hjust = 1)) \n\n\n\n\nSo perhaps outliers are a combination of age, animal type and outcome. Old cats are not usually adopted (and old for a cat is about 2 years) and a dog is not “old” unil 6 or 7 years of age."
+    "text": "Outliers or Unusual Values\nWe might transform the variable “AgeInDays” to help us better understand it or perhaps make it more presentable.\nUsually long right hand tails can use a square root or a log transformation to help normalize them or at least bring the relationship into clearer focus:\n\ntrain2$AO &lt;- paste(train2$AnimalType, train2$OutcomeType, sep=\"-\")\nggplot(train2, aes(x=AO, y=sqrt(AgeInDays))) + \n    geom_boxplot(fill=rep(c(\"red\",\"blue\"), each=5)) + \n    theme(axis.text.x = element_text(angle = 90, hjust = 1)) \n\n\n\n\n\n\n\n\nSo perhaps outliers are a combination of age, animal type and outcome. Old cats are not usually adopted (and old for a cat is about 2 years) and a dog is not “old” unil 6 or 7 years of age."
   },
   {
     "objectID": "EDA.html#working-with-groups",
@@ -441,164 +518,10 @@
     "text": "To learn more about Quarto websites please visit https://quarto.org/docs/websites.\nTo learn more about WebR please visit https://quarto-webr.thecoatlessprofessor.com/qwebr-first-steps.html.\nAnd this site is hosted by GitHub (free) and easy setup and maintenance https://pages.github.com/\nThat is not a photograph of me, but my family’s cat, Harry. That was taken Christmas morning after I asked him to get out of my chair."
   },
   {
-    "objectID": "SROI.html#introduction",
-    "href": "SROI.html#introduction",
-    "title": "SROI",
-    "section": "Introduction",
-    "text": "Introduction\n\nSocial Return on Investment (SROI) analysis is a way to measure and document the value created by social, environmental, and economic activities.\nSROI is an approach that can help organizations understand the influence of their work on stakeholders above and beyond standard financial metrics.\nSROI goal is to generate a more comprehensive view of the performance and effectiveness of an organization or project by monetarily valuing social and environmental outcomes,"
-  },
-  {
-    "objectID": "SROI.html#sroi-analysis",
-    "href": "SROI.html#sroi-analysis",
-    "title": "SROI",
-    "section": "SROI analysis",
-    "text": "SROI analysis\ninvolves:\n\nIdentifying Stakeholders: Determining who is affected by the organization’s activities and should be part of the analysis.\nMapping Outcomes: Identifying the social, environmental, and economic outcomes resulting from the organization’s activities.\nEvidencing Outcomes: Collecting evidence for the outcomes\nValuing Outcomes: estimating the value of outcomes monetarily"
-  },
-  {
-    "objectID": "SROI.html#sroi-analysis-1",
-    "href": "SROI.html#sroi-analysis-1",
-    "title": "SROI",
-    "section": "SROI Analysis:",
-    "text": "SROI Analysis:\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
-  },
-  {
-    "objectID": "SROI.html#sroi-analysis-contd",
-    "href": "SROI.html#sroi-analysis-contd",
-    "title": "SROI",
-    "section": "SROI Analysis (cont’d):",
-    "text": "SROI Analysis (cont’d):\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time"
-  },
-  {
-    "objectID": "SROI.html#sroi-analysis-contd-1",
-    "href": "SROI.html#sroi-analysis-contd-1",
-    "title": "SROI",
-    "section": "SROI Analysis (cont’d):",
-    "text": "SROI Analysis (cont’d):\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
-  },
-  {
-    "objectID": "SROI.html#technical-background",
-    "href": "SROI.html#technical-background",
-    "title": "SROI",
-    "section": "Technical Background:",
-    "text": "Technical Background:\nThe level of mathematics or statistics required for Social Return on Investment (SROI) analysis varies with the depth and complexity of the analysis.\n\nBasic Arithmetic: Comfort with basic arithmetic operations (addition, subtraction, multiplication, division)\nAlgebra: Understanding how to solve equations and manipulate algebraic expressions\nPercentages and Proportions Understanding how to calculate and interpret percentages"
-  },
-  {
-    "objectID": "SROI.html#technical-background-1",
-    "href": "SROI.html#technical-background-1",
-    "title": "SROI",
-    "section": "Technical Background",
-    "text": "Technical Background\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
-  },
-  {
-    "objectID": "SROI.html#technical-background-2",
-    "href": "SROI.html#technical-background-2",
-    "title": "SROI",
-    "section": "Technical Background",
-    "text": "Technical Background\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
-  },
-  {
-    "objectID": "SROI.html#technical-background-contd",
-    "href": "SROI.html#technical-background-contd",
-    "title": "SROI",
-    "section": "Technical Background (cont’d):",
-    "text": "Technical Background (cont’d):\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
-  },
-  {
-    "objectID": "SROI.html#technical-background-contd-1",
-    "href": "SROI.html#technical-background-contd-1",
-    "title": "SROI",
-    "section": "Technical Background (cont’d):",
-    "text": "Technical Background (cont’d):\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
-  },
-  {
-    "objectID": "SROI.html#example",
-    "href": "SROI.html#example",
-    "title": "SROI",
-    "section": "Example",
-    "text": "Example\nThis was derived from Kennedy & Philips (2011) on using the SROI methodology to evaluate the social impact of an Expert Patient Program for Substance and Alcohol Misuse in a UK region. First their model is described:"
-  },
-  {
-    "objectID": "SROI.html#example-1",
-    "href": "SROI.html#example-1",
-    "title": "SROI",
-    "section": "Example",
-    "text": "Example\nThe outcomes are measured\n\nThe total value of each change, was calculated as: - The financial proxy - Multiplied by the reported quantity of the outcome - Minus any deadweight, attribution and / or displacement factors\nThe total is then the total of all the impact calculations for each outcome. The total impact (at the end of the period of analysis)"
-  },
-  {
-    "objectID": "SROI.html#section",
-    "href": "SROI.html#section",
-    "title": "SROI",
+    "objectID": "Previously.html",
+    "href": "Previously.html",
+    "title": "Previously",
     "section": "",
-    "text": "Introduction\n\nSocial Return on Investment (SROI) analysis is a way to measure and document the value created by social, environmental, and economic activities.\nSROI is an approach that can help organizations understand the influence of their work on stakeholders above and beyond standard financial metrics.\nSROI goal is to generate a more comprehensive view of the performance and effectiveness of an organization or project by monetarily valuing social and environmental outcomes,"
-  },
-  {
-    "objectID": "SROI.html#section-1",
-    "href": "SROI.html#section-1",
-    "title": "SROI",
-    "section": "",
-    "text": "SROI analysis\ninvolves:\n\nIdentifying Stakeholders: Determining who is affected by the organization’s activities and should be part of the analysis.\nMapping Outcomes: Identifying the social, environmental, and economic outcomes resulting from the organization’s activities.\nEvidencing Outcomes: Collecting evidence for the outcomes\nValuing Outcomes: estimating the value of outcomes monetarily"
-  },
-  {
-    "objectID": "SROI.html#section-2",
-    "href": "SROI.html#section-2",
-    "title": "SROI",
-    "section": "",
-    "text": "SROI Analysis (cont’d):\n\nEstablishing Impact: Understanding and articulating how much of the outcome was caused by the organization’s activities which means:\n\nIdentifying what would have happened anyway\nAcknowledging the contribution of other factors\nReplacing one outcome with another\nRecognizing how outcomes change over time"
-  },
-  {
-    "objectID": "SROI.html#section-3",
-    "href": "SROI.html#section-3",
-    "title": "SROI",
-    "section": "",
-    "text": "SROI Analysis (cont’d):\n\nCalculating SROI: Sum the benefits, deduct the negatives, and comparing the result to the investment.\nReport and Apply: Communicating the findings from the SROI analysis and using them to make decisions and improve performance."
-  },
-  {
-    "objectID": "SROI.html#section-4",
-    "href": "SROI.html#section-4",
-    "title": "SROI",
-    "section": "",
-    "text": "Technical Background:\nThe level of mathematics or statistics required for Social Return on Investment (SROI) analysis varies with the depth and complexity of the analysis.\n\nBasic Arithmetic: Comfort with basic arithmetic operations (addition, subtraction, multiplication, division)\nAlgebra: Understanding how to solve equations and manipulate algebraic expressions\nPercentages and Proportions Understanding how to calculate and interpret percentages"
-  },
-  {
-    "objectID": "SROI.html#section-5",
-    "href": "SROI.html#section-5",
-    "title": "SROI",
-    "section": "",
-    "text": "Technical Background (cont’d):\n\nDiscounting: The concept of discounting future benefits and costs to their present value is important in SROI analysis. This requires an understanding of the time value of money and how to apply discount rates to future cash flows.\nNet Present Value (NPV): Calculating the NPV involves understanding how to sum present values of future benefits and costs, taking into account the investment made."
-  },
-  {
-    "objectID": "SROI.html#section-6",
-    "href": "SROI.html#section-6",
-    "title": "SROI",
-    "section": "",
-    "text": "Technical Background (cont’d):\n\nDescriptive Statistics: Basic understanding of means, medians, modes, ranges, and standard deviation can help in analyzing and summarizing data.\nInferential Statistics: Knowledge of statistical significance, confidence intervals, and hypothesis testing can be useful for attributing outcomes to interventions and for understanding the uncertainty in your estimates.\nSensitivity Analysis for assessing how changes in key assumptions or variables affect the outcomes. This involves varying inputs to understand how the results change."
-  },
-  {
-    "objectID": "SROI.html#section-7",
-    "href": "SROI.html#section-7",
-    "title": "SROI",
-    "section": "",
-    "text": "Example\nThis was derived from Kennedy & Philips (2011) on using the SROI methodology to evaluate the social impact of an Expert Patient Program for Substance and Alcohol Misuse in a UK region. First their model is described in the next slide"
-  },
-  {
-    "objectID": "SROI.html#section-8",
-    "href": "SROI.html#section-8",
-    "title": "SROI",
-    "section": "",
-    "text": "Example\nThen the outcomes are measured"
-  },
-  {
-    "objectID": "SROI.html#model",
-    "href": "SROI.html#model",
-    "title": "SROI",
-    "section": "Model",
-    "text": "Model"
-  },
-  {
-    "objectID": "SROI.html#section-9",
-    "href": "SROI.html#section-9",
-    "title": "SROI",
-    "section": "",
-    "text": "Example\nThe total value of each change, was calculated as:\n\nThe financial proxy\n\nMultiplied by the reported quantity of the outcome\n\nMinus any deadweight, attribution and / or displacement factors\n\nThe total is then the total of all the impact calculations for each outcome. The total impact (at the end of the period of analysis)"
+    "text": "Presentation for LACSD\nNormal Lesson\nR Refresher\nEDA\nDataFest Presentation"
   }
 ]
